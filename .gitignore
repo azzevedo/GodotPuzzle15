@@ -16,3 +16,7 @@ mono_crash.*.json
 
 *.simp.bak
 *.simp.user
+
+*Tests/
+
+*.vscode/

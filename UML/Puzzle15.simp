@@ -1,0 +1,2322 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.00" multi-file="no" uid="simp78d53c55696942f89e459cf266d2b5f9" creation-date="10/19/2023 14:28:33">
+  <meta>
+    <name>Puzzle15</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters diagrams="1" models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="org-role" type="Role" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="tutorial-picture" type="Picture" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ig-step" type="Step" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="model" type="Model" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="information-item" type="Information Item" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="structure-control-module" type="Control Module" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="structure-library-module" type="Library Module" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="mind-map-node" type="Mind Map Node" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Occurrence" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>24</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>81</value>
+      </counter>
+      <counter>
+        <item-type type-id="usage" type="Usage" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="org-role" type="Role" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="tutorial-picture" type="Picture" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ig-step" type="Step" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="model" type="Model" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="information-item" type="Information Item" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="structure-control-module" type="Control Module" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="structure-library-module" type="Library Module" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="mind-map-start" type="Mind Map Start" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="mind-map-node" type="Mind Map Node" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="mind-map-edge" type="Mind Map Edge" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="requirement" type="Requirement" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Occurrence" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlCompositeStructureDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlProfileDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Jsd.EntityStructureDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.ObjectRoleMappingDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.OrganizationalChart</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.TutorialDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlModelDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlInformationFlowDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlComponentDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.StructureChart</type>
+        <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.MindMap</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.RequirementDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlObjectDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>42</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-368dc11d334f4506b70982f569d56f24" name="" task-id-sequence="0">
+    <working-schedule uid="ws-9d4c05c54b414153a7c50de4c653be00" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-a58338ad419a4169811be5db22237324" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-79928619202f43ecb449bf71127e190e" name="" order-index="0" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+      <type-set file="GDScript.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Array[" name="Array[" />
+        <type id="TextureButton" name="TextureButton" />
+        <type id="Class:cd2b254896de4cfeb81f901831ad0a06" name="GameManager" class-ref="cd2b254896de4cfeb81f901831ad0a06" />
+        <type id="Class:d776efdd796c487aae5d1b9ba3a68f3e" name="StartScreen :Control" class-ref="d776efdd796c487aae5d1b9ba3a68f3e" />
+        <type id="Piece[][]" name="Piece[][]" />
+        <type id="Piece[]" name="Piece[]" />
+        <type id="Class:9599cabf8d0e47d49e5ac2544c468290" name="Piece :Node2D" class-ref="9599cabf8d0e47d49e5ac2544c468290" />
+        <type id="Collection" name="Collection" />
+        <type id="Class:20d29950e98d4d73a5fe404007ad5b98" name="GameManager" class-ref="20d29950e98d4d73a5fe404007ad5b98" />
+        <type id="Piece" name="Piece" />
+        <type id="Node" name="Node" />
+        <type id="PackedScene" name="PackedScene" />
+        <type id="Piece[][] (Piece[])" name="Piece[][] (Piece[])" />
+        <type id="GridContainer" name="GridContainer" />
+        <type id="Vector2D" name="Vector2D" />
+        <type id="Control" name="Control" />
+        <type id="Label" name="Label" />
+        <type id="Class:53efd17f833549938700084b0fa00be1" name="StartScreen :Control" class-ref="53efd17f833549938700084b0fa00be1" />
+        <type id="Class:f547a07d459d49b183d03bcc65d79645" name="GameManager :Node2D" class-ref="f547a07d459d49b183d03bcc65d79645" />
+        <type id="Timer" name="Timer" />
+        <type id="float" name="float" />
+        <type id="Class:8e2d1b2317b24df1972b7cc310e35bb8" name="StartScreen" class-ref="8e2d1b2317b24df1972b7cc310e35bb8" />
+        <type id="Class:df3a449e9362413daff0d97a6affcb6b" name="Game :MarginContainer" class-ref="df3a449e9362413daff0d97a6affcb6b" />
+        <type id="Array[Piece]" name="Array[Piece]" />
+        <type id="Class:e6241365cd2b409b8b039394de2eb39c" name="Piece" class-ref="e6241365cd2b409b8b039394de2eb39c" />
+        <type id="Array" name="Array" />
+        <type id="bool" name="bool" />
+        <type id="Vector2" name="Vector2" />
+        <type id="Class:4dd6a0ed83bf4307addad40de9c06936" name="Grid: Control" class-ref="4dd6a0ed83bf4307addad40de9c06936" />
+        <type id="Array[Vector2]" name="Array[Vector2]" />
+        <type id="Class:67852ba0b9a24f2bbc415c163c03c26e" name="Game" class-ref="67852ba0b9a24f2bbc415c163c03c26e" />
+        <type id="Class:2be630c7765844e5bf43b7a3823aea48" name="Game" class-ref="2be630c7765844e5bf43b7a3823aea48" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="e25b6739746748afbeda793b3e39efb0" cid="PROP023" type="property" name="Board" owner="f547a07d459d49b183d03bcc65d79645" creator="" creation-date="10/18/2023 10:58:10" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="GridContainer" type-id="GridContainer" />
+    </item>
+    <item id="c163e7b8a2964b698c028919fbef5428" cid="PROP052" type="property" owner="bdc7b5eadfc04ccca5a0b40f9ce56ba2" creation-date="10/20/2023 10:51:54" visibility="private">
+      <structural-feature type="GameManager" type-id="Class:20d29950e98d4d73a5fe404007ad5b98" />
+    </item>
+    <item id="c15f8429024d49df93e3a0cafb62ad9b" cid="PROP015" type="property" owner="a4c61b2850074e8fa0113ec9a33f3ea3" creator="" creation-date="10/18/2023 08:32:51" visibility="private" />
+    <item id="4b9d1d42824245e5a55d3bbe0c02790d" cid="PROP046" type="property" name="Lifeline1" creation-date="10/20/2023 07:41:42" visibility="undefined">
+      <structural-feature type="StartScreen" type-id="Class:8e2d1b2317b24df1972b7cc310e35bb8" />
+    </item>
+    <item id="b731040f7bd2469d9056c90ab759a5a4" cid="STR001" type="mind-map-start" name="GameManager" creator="" creation-date="10/18/2023 10:41:37" />
+    <item id="74de5b2c15834629a9358223fcebb9be" cid="PROP025" type="property" owner="ef4abc15e4db4d769103af179ac1e90d" creation-date="10/19/2023 10:41:36" visibility="undefined">
+      <structural-feature type="GameManager :Node2D" type-id="Class:f547a07d459d49b183d03bcc65d79645" />
+    </item>
+    <item id="918b17f9142d465abc9f2b18d60b35ed" cid="PROP014" type="property" owner="50dd2f4123ac4e758d271e87f0857996" creator="" creation-date="10/18/2023 08:32:19" visibility="private" />
+    <item id="06ab00d3e0594cc683bcb814cff99ce6" cid="PROP049" type="property" creation-date="10/20/2023 07:42:49" visibility="undefined">
+      <structural-feature type="GameManager" type-id="Class:cd2b254896de4cfeb81f901831ad0a06" />
+    </item>
+    <item id="9cf51deb25e24fea93f1d9e4634149c5" cid="PROP016" type="property" owner="a4c61b2850074e8fa0113ec9a33f3ea3" creator="" creation-date="10/18/2023 08:32:51" visibility="private" />
+    <item id="1d7b948c378d441eaa80be53280d15ab" cid="PROP061" type="property" name="pre_game" owner="20d29950e98d4d73a5fe404007ad5b98" creation-date="10/20/2023 11:36:48" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="PackedScene" type-id="PackedScene" />
+    </item>
+    <item id="die6b13a97c6d842cfa41c0bbb9aa1addd7087" cid="CN003" type="comment-connector" creation-date="10/19/2023 11:35:32" from="bee9a32cff4a481888bca64e9e737282" to="d776efdd796c487aae5d1b9ba3a68f3e" />
+    <item id="9d980b8a79e34ed9aceee8e6cd2f587b" cid="CMT005" type="comment" name="Comment" creation-date="10/19/2023 14:29:12">
+      <comment>Pertence ao grupo 'pieces'</comment>
+    </item>
+    <item id="dab6af5e118446f4b31c0fe6e329363d" cid="PROP044" type="property" owner="deed28850ca04c6796761f6dc830e3cc" creation-date="10/19/2023 14:30:49" visibility="undefined">
+      <structural-feature type="StartScreen :Control" type-id="Class:d776efdd796c487aae5d1b9ba3a68f3e" />
+    </item>
+    <item id="dfe3508685934b1995131974010ec1d9" cid="PROP047" type="property" creation-date="10/20/2023 07:42:03" visibility="undefined">
+      <structural-feature type="StartScreen" type-id="Class:8e2d1b2317b24df1972b7cc310e35bb8" />
+    </item>
+    <item id="b1248eafd2804f1fac20100607dba775" cid="PROP022" type="property" name="moves" owner="f547a07d459d49b183d03bcc65d79645" creator="" creation-date="10/18/2023 10:57:37" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="fb0f9f0fa7fe47c5b766c08df161f4fd" cid="PROP024" type="property" owner="ef4abc15e4db4d769103af179ac1e90d" creation-date="10/19/2023 10:41:36" visibility="undefined">
+      <structural-feature type="Piece :Node2D" type-id="Class:9599cabf8d0e47d49e5ac2544c468290" />
+    </item>
+    <item id="e54810dceeaa4962b68b2e1c13183be9" cid="PROP051" type="property" owner="bdc7b5eadfc04ccca5a0b40f9ce56ba2" creation-date="10/20/2023 10:51:54" visibility="private">
+      <structural-feature type="StartScreen :Control" type-id="Class:53efd17f833549938700084b0fa00be1" />
+    </item>
+    <item id="dif7514f0249d840eb893cd952e7ea1c872860" cid="CN005" type="comment-connector" creation-date="10/19/2023 14:29:12" from="9d980b8a79e34ed9aceee8e6cd2f587b" to="9599cabf8d0e47d49e5ac2544c468290" />
+    <item id="5b240c72918540f789a16beb98905765" cid="PROP011" type="property" owner="7f76462b4ef74c1cbd1d4014cec29812" creator="" creation-date="10/18/2023 08:32:13" visibility="private" />
+    <item id="8f52eba004274ca9925828488411c234" cid="PROP069" type="property" owner="827006a6d6d74efb97dfd6768089debd" creation-date="10/20/2023 14:28:10" visibility="undefined">
+      <structural-feature type="Piece" type-id="Class:e6241365cd2b409b8b039394de2eb39c" />
+    </item>
+    <item id="di84c023e588a64033a71670537bbd53651132" cid="CN007" type="comment-connector" creation-date="10/23/2023 15:21:07" from="e220076da00647888ef32f07435a392d" to="4dd6a0ed83bf4307addad40de9c06936" />
+    <item id="d2dcb8bca23144518b0e48ac7fcfa6a4" cid="PROP018" type="property" owner="f4eefe8197594362893ba32f606b8453" creator="" creation-date="10/18/2023 08:33:06" visibility="private" />
+    <item id="ebb62efba2fe4b60bb3e112b8e21cef9" cid="PROP045" type="property" owner="deed28850ca04c6796761f6dc830e3cc" creation-date="10/19/2023 14:30:49" visibility="undefined">
+      <structural-feature type="GameManager :Node2D" type-id="Class:f547a07d459d49b183d03bcc65d79645" />
+    </item>
+    <item id="5b6522377c994d79a14e01670f18c8cd" cid="PROP008" type="property" owner="c7b69f91191f44eaa5da73558ab0f073" creator="" creation-date="10/18/2023 08:32:02" visibility="private" />
+    <item id="8e2d1b2317b24df1972b7cc310e35bb8" cid="C008" type="class" name="StartScreen" creation-date="10/20/2023 07:41:42" visibility="undefined" />
+    <item id="77389ea82535440193338c6726e3eaae" cid="PROP080" type="property" owner="0754a7956b114c66952aacf597a09c01" creation-date="10/23/2023 15:20:45" visibility="private">
+      <structural-feature type="Game" type-id="Class:2be630c7765844e5bf43b7a3823aea48" />
+    </item>
+    <item id="244fbf3185524f58aecae14ac7045e47" cid="PROP017" type="property" owner="f4eefe8197594362893ba32f606b8453" creator="" creation-date="10/18/2023 08:33:06" visibility="private" />
+    <item id="0aebfdfe8cc8440db8d99f24c574cfed" cid="PROP048" type="property" creation-date="10/20/2023 07:42:40" visibility="undefined">
+      <structural-feature type="Game" type-id="Class:67852ba0b9a24f2bbc415c163c03c26e" />
+    </item>
+    <item id="ac53ae2979584e20aa589b7da404e868" cid="PROP012" type="property" owner="7f76462b4ef74c1cbd1d4014cec29812" creator="" creation-date="10/18/2023 08:32:13" visibility="private" />
+    <item id="174bca184d554493bf2d849aa9ccf241" cid="PROP037" type="property" owner="dfa438ac12c24affba18b320a598fb4a" creation-date="10/19/2023 11:18:32" visibility="undefined">
+      <structural-feature type="GameManager :Node2D" type-id="Class:f547a07d459d49b183d03bcc65d79645" />
+    </item>
+    <item id="b72b76f3f8eb450e8c11c4a883c30144" cid="PROP070" type="property" owner="827006a6d6d74efb97dfd6768089debd" creation-date="10/20/2023 14:28:10" visibility="undefined">
+      <structural-feature type="Game" type-id="Class:2be630c7765844e5bf43b7a3823aea48" />
+    </item>
+    <item id="2c891fcfc5d049f681e5e0ca0fef8b4e" cid="CMT006" type="comment" name="Comment" creation-date="10/19/2023 14:34:07">
+      <comment>O Node base já é logo um MarginContainer, ao invés de um Node.
+Aqui é onde o conteúdo do jogo será exibido.
+As informações são passadas do GameManager.</comment>
+    </item>
+    <item id="c58d833963f447bead5523406d3160c3" cid="PROP079" type="property" owner="0754a7956b114c66952aacf597a09c01" creation-date="10/23/2023 15:20:45" visibility="private">
+      <structural-feature type="Grid: Control" type-id="Class:4dd6a0ed83bf4307addad40de9c06936" />
+    </item>
+    <item id="di514991ce17a34957b7542df01b8c11aa7387" cid="CN006" type="comment-connector" creation-date="10/19/2023 14:34:07" from="2c891fcfc5d049f681e5e0ca0fef8b4e" to="df3a449e9362413daff0d97a6affcb6b" />
+    <item id="di277b496c0ac147cf8ca58788a679c9822921" cid="CN004" type="comment-connector" creation-date="10/19/2023 12:26:58" from="85c15ac2dd824c7e82b1aef07a736f20" to="dfa438ac12c24affba18b320a598fb4a" />
+    <item id="84e174fbe31f4d1cbc833da42e937515" cid="PROP053" type="property" owner="23f8299c374946138840fff4837e8fd5" creation-date="10/20/2023 10:57:12" visibility="private">
+      <structural-feature type="Game" type-id="Class:2be630c7765844e5bf43b7a3823aea48" />
+    </item>
+    <item id="67852ba0b9a24f2bbc415c163c03c26e" cid="C009" type="class" name="Game" creation-date="10/20/2023 07:42:40" visibility="undefined" />
+    <item id="0be4f4cfedbf4772b196737af809990f" cid="PROP043" type="property" name="BoardSolution" owner="f547a07d459d49b183d03bcc65d79645" creation-date="10/19/2023 12:32:47" visibility="protected">
+      <documentations>
+        <doc id="0ea0a8610e134ed8bfca6707bd99fa51">
+          <text>
+            <default>
+              <style font-name="Microsoft Sans Serif" font-size="7.8">
+                <text>
+                  <solid-brush color="#FF000000" />
+                </text>
+              </style>
+            </default>
+            <styles />
+            <content>
+              <paragraph>
+                <style numbering-type="None">
+                  <numbering name="" multi-level="false">
+                    <numbering-level type="None" level="0" format="{0}." />
+                  </numbering>
+                </style>
+                <p>
+                  <t>Armazena </t>
+                </p>
+                <p>
+                  <t>o </t>
+                </p>
+                <p>
+                  <t>Board </t>
+                </p>
+                <p>
+                  <t>ordenado </t>
+                </p>
+                <p>
+                  <t>para </t>
+                </p>
+                <p>
+                  <t>comparar </t>
+                </p>
+                <p>
+                  <t>com </t>
+                </p>
+                <p>
+                  <t>uma </t>
+                </p>
+                <p>
+                  <t>versão </t>
+                </p>
+                <p>
+                  <t>de </t>
+                </p>
+                <p>
+                  <t>BoardData </t>
+                </p>
+                <p>
+                  <t>que </t>
+                </p>
+                <p>
+                  <t>seja </t>
+                </p>
+                <p>
+                  <t>um </t>
+                </p>
+                <p>
+                  <t>Array </t>
+                </p>
+                <p>
+                  <t>unidimensional.
+</t>
+                </p>
+              </paragraph>
+            </content>
+          </text>
+        </doc>
+      </documentations>
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Piece[]" type-id="Piece[]" />
+    </item>
+    <item id="e46ea494c19541f48b8871a1d9e7a0f8" cid="PROP013" type="property" owner="50dd2f4123ac4e758d271e87f0857996" creator="" creation-date="10/18/2023 08:32:19" visibility="private" />
+    <item id="933fd619d0e04e87be0d4ac96931d020" cid="PROP021" type="property" name="timer" owner="f547a07d459d49b183d03bcc65d79645" creator="" creation-date="10/18/2023 10:57:29" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Timer" type-id="Timer" />
+    </item>
+    <item id="bee9a32cff4a481888bca64e9e737282" cid="CMT003" type="comment" name="Comment" creation-date="10/19/2023 11:35:32">
+      <comment>Cada botão invoca o InitGrid, informando o tamanho do grid [que será o modo do jogo]</comment>
+    </item>
+    <item id="25efa4eb386046629f1c0f0d8a7475a1" cid="PROP036" type="property" owner="dfa438ac12c24affba18b320a598fb4a" creation-date="10/19/2023 11:18:32" visibility="undefined">
+      <structural-feature type="Game :MarginContainer" type-id="Class:df3a449e9362413daff0d97a6affcb6b" />
+    </item>
+    <item id="e220076da00647888ef32f07435a392d" cid="CMT007" type="comment" name="Comment" creation-date="10/23/2023 15:21:07">
+      <comment>Node Grid dentro da cena Game</comment>
+    </item>
+    <item id="e457e6d6cdc240ca89c885b119dbcec5" cid="PROP007" type="property" owner="c7b69f91191f44eaa5da73558ab0f073" creator="" creation-date="10/18/2023 08:32:02" visibility="private" />
+    <item id="85c15ac2dd824c7e82b1aef07a736f20" cid="CMT004" type="comment" name="Comment" creation-date="10/19/2023 12:26:58">
+      <comment>GridContainer
+Labels
+são usados pelo GameManager</comment>
+    </item>
+    <item id="caa2ae1529364626bdc05a69f2c2607f" cid="PROP054" type="property" owner="23f8299c374946138840fff4837e8fd5" creation-date="10/20/2023 10:57:12" visibility="private">
+      <structural-feature type="GameManager" type-id="Class:20d29950e98d4d73a5fe404007ad5b98" />
+    </item>
+    <item id="bce2bad073e14536a47e4d7fde4616ba" cid="PROP026" type="property" name="BoardData" owner="f547a07d459d49b183d03bcc65d79645" creation-date="10/19/2023 10:42:58" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Piece[][]" type-id="Piece[][]" />
+    </item>
+    <item id="9ce15c1d95cd43629b4c795fde248723" cid="PROP060" type="property" name="game" owner="20d29950e98d4d73a5fe404007ad5b98" creation-date="10/20/2023 11:36:27" visibility="protected">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Node" type-id="Node" />
+    </item>
+  </items>
+  <models>
+    <model id="p8318553ee69d4c94adbf7f9c8909b101_396298411" name="Model1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author>Z</author>
+        </authors>
+        <description />
+        <creation-date>10/18/2023 08:30:50</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <brainstorming-session id="pfe9185c486fb40eb881dc3f15efb943a_540889363" name="Requisitos Puzzle 15" order-index="0" creation-date="10/19/2023 10:00:56">
+        <text>
+          <default>
+            <style font-name="Microsoft Sans Serif" font-size="7.8">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </default>
+          <styles>
+            <style name="S1" font-name="Microsoft Sans Serif" font-size="18">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <definition>
+            <sections>
+              <section name="">
+                <default-page>
+                  <page size="210,297" header-offset="15" footer-offset="15" unit="mm">
+                    <margins left="20" right="20" top="20" bottom="20" />
+                  </page>
+                </default-page>
+              </section>
+            </sections>
+          </definition>
+          <content>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>O </t>
+              </p>
+              <p s="S1">
+                <t>jogo </t>
+              </p>
+              <p s="S1">
+                <t>deve </t>
+              </p>
+              <p s="S1">
+                <t>c</t>
+              </p>
+              <p s="S1">
+                <t>riar </t>
+              </p>
+              <p s="S1">
+                <t>grids </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>tamanhos </t>
+              </p>
+              <p s="S1">
+                <t>diferentes </t>
+              </p>
+              <p s="S1">
+                <t>[nível </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>dificuldade]</t>
+              </p>
+              <p s="S1">
+                <t>, </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>acordo </t>
+              </p>
+              <p s="S1">
+                <t>com </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>escolha </t>
+              </p>
+              <p s="S1">
+                <t>do </t>
+              </p>
+              <p s="S1">
+                <t>jogador </t>
+              </p>
+              <p s="S1">
+                <t>na </t>
+              </p>
+              <p s="S1">
+                <t>tela </t>
+              </p>
+              <p s="S1">
+                <t>inicial.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>Deve </t>
+              </p>
+              <p s="S1">
+                <t>haver </t>
+              </p>
+              <p s="S1">
+                <t>um </t>
+              </p>
+              <p s="S1">
+                <t>timer </t>
+              </p>
+              <p s="S1">
+                <t>para </t>
+              </p>
+              <p s="S1">
+                <t>contar </t>
+              </p>
+              <p s="S1">
+                <t>o </t>
+              </p>
+              <p s="S1">
+                <t>tempo </t>
+              </p>
+              <p s="S1">
+                <t>decorrido.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>Deve </t>
+              </p>
+              <p s="S1">
+                <t>haver </t>
+              </p>
+              <p s="S1">
+                <t>um </t>
+              </p>
+              <p s="S1">
+                <t>contador </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>movimentos </t>
+              </p>
+              <p s="S1">
+                <t>feitos.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>Ao </t>
+              </p>
+              <p s="S1">
+                <t>mover </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>peça, </t>
+              </p>
+              <p s="S1">
+                <t>fazer </t>
+              </p>
+              <p s="S1">
+                <t>animação </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>popup </t>
+              </p>
+              <p s="S1">
+                <t>e </t>
+              </p>
+              <p s="S1">
+                <t>som </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>peças </t>
+              </p>
+              <p s="S1">
+                <t>se </t>
+              </p>
+              <p s="S1">
+                <t>chocando.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>Possibilidade </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>m</t>
+              </p>
+              <p s="S1">
+                <t>over </t>
+              </p>
+              <p s="S1">
+                <t>mais </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>uma </t>
+              </p>
+              <p s="S1">
+                <t>p</t>
+              </p>
+              <p s="S1">
+                <t>eça </t>
+              </p>
+              <p s="S1">
+                <t>ao </t>
+              </p>
+              <p s="S1">
+                <t>mesmo </t>
+              </p>
+              <p s="S1">
+                <t>tempo, </t>
+              </p>
+              <p s="S1">
+                <t>de </t>
+              </p>
+              <p s="S1">
+                <t>acordo </t>
+              </p>
+              <p s="S1">
+                <t>com </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>posição </t>
+              </p>
+              <p s="S1">
+                <t>vazia.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>-&gt; </t>
+              </p>
+              <p s="S1">
+                <t>Se </t>
+              </p>
+              <p s="S1">
+                <t>u</t>
+              </p>
+              <p s="S1">
+                <t>ma </t>
+              </p>
+              <p s="S1">
+                <t>linha </t>
+              </p>
+              <p s="S1">
+                <t>tem </t>
+              </p>
+              <p s="S1">
+                <t>5 </t>
+              </p>
+              <p s="S1">
+                <t>posições, </t>
+              </p>
+              <p s="S1">
+                <t>o </t>
+              </p>
+              <p s="S1">
+                <t>índice</t>
+              </p>
+              <p s="S1">
+                <t> </t>
+              </p>
+              <p s="S1">
+                <t>1 </t>
+              </p>
+              <p s="S1">
+                <t>está </t>
+              </p>
+              <p s="S1">
+                <t>vazio </t>
+              </p>
+              <p s="S1">
+                <t>e </t>
+              </p>
+              <p s="S1">
+                <t>o </t>
+              </p>
+              <p s="S1">
+                <t>jogador </t>
+              </p>
+              <p s="S1">
+                <t>clica </t>
+              </p>
+              <p s="S1">
+                <t>no </t>
+              </p>
+              <p s="S1">
+                <t>índice </t>
+              </p>
+              <p s="S1">
+                <t>4, </t>
+              </p>
+              <p s="S1">
+                <t>as </t>
+              </p>
+              <p s="S1">
+                <t>peças </t>
+              </p>
+              <p s="S1">
+                <t>nos </t>
+              </p>
+              <p s="S1">
+                <t>índices </t>
+              </p>
+              <p s="S1">
+                <t>[2,3,4] </t>
+              </p>
+              <p s="S1">
+                <t>se </t>
+              </p>
+              <p s="S1">
+                <t>movem </t>
+              </p>
+              <p s="S1">
+                <t>para </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>esquerda.
+</t>
+              </p>
+            </paragraph>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p s="S1">
+                <t>-&gt; </t>
+              </p>
+              <p s="S1">
+                <t>Se </t>
+              </p>
+              <p s="S1">
+                <t>clicado </t>
+              </p>
+              <p s="S1">
+                <t>no </t>
+              </p>
+              <p s="S1">
+                <t>índice </t>
+              </p>
+              <p s="S1">
+                <t>3, </t>
+              </p>
+              <p s="S1">
+                <t>as </t>
+              </p>
+              <p s="S1">
+                <t>peças </t>
+              </p>
+              <p s="S1">
+                <t>nos </t>
+              </p>
+              <p s="S1">
+                <t>índices </t>
+              </p>
+              <p s="S1">
+                <t>[2, </t>
+              </p>
+              <p s="S1">
+                <t>3] </t>
+              </p>
+              <p s="S1">
+                <t>se </t>
+              </p>
+              <p s="S1">
+                <t>movem </t>
+              </p>
+              <p s="S1">
+                <t>para </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>esquerda, </t>
+              </p>
+              <p s="S1">
+                <t>a </t>
+              </p>
+              <p s="S1">
+                <t>peça </t>
+              </p>
+              <p s="S1">
+                <t>no </t>
+              </p>
+              <p s="S1">
+                <t>índice </t>
+              </p>
+              <p s="S1">
+                <t>4 </t>
+              </p>
+              <p s="S1">
+                <t>permanace </t>
+              </p>
+              <p s="S1">
+                <t>onde </t>
+              </p>
+              <p s="S1">
+                <t>estava.
+</t>
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </brainstorming-session>
+      <diagram type="uml-usecase" id="p08b5df260eca4881a36290bfb3b4924e_157025667" name="UseCaseDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="101,257" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Z</author>
+          </authors>
+          <description />
+          <creation-date>10/18/2023 08:30:50</creation-date>
+          <change-date>10/18/2023 09:46:13</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b035a04ebd9a4625ab6717bdf835828b" cid="UC001" type="use-case" name="Play" creator="" creation-date="10/18/2023 08:31:04" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="f4eefe8197594362893ba32f606b8453" cid="REL009" type="relationship" creator="" creation-date="10/18/2023 08:33:06" from="cd2b254896de4cfeb81f901831ad0a06" to="bf7ce714f54a489db789924e8981f474" visibility="package">
+            <owned-items />
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" to="bf7ce714f54a489db789924e8981f474" derived="false">
+              <start-role id="umlar-ddf1c9fe-4e92-4d7c-b92e-a97d49684902" name="" navigability="" association-type="association" visibility="private" property-ref="244fbf3185524f58aecae14ac7045e47" />
+              <end-role id="umlar-928d49e7-0b27-43a5-8778-6c024ecb40ea" name="" navigability="" association-type="association" visibility="private" property-ref="d2dcb8bca23144518b0e48ac7fcfa6a4" />
+            </relation>
+          </item>
+          <item id="3bfeb03d18384cc5a99297cf17af7e81" cid="UC002" type="use-case" name="Pause" creator="" creation-date="10/18/2023 08:31:13" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="cd2b254896de4cfeb81f901831ad0a06" cid="AC002" type="actor" name="GameManager" creator="" creation-date="10/18/2023 08:31:32" visibility="undefined" />
+          <item id="7f76462b4ef74c1cbd1d4014cec29812" cid="REL006" type="relationship" creator="" creation-date="10/18/2023 08:32:13" from="cd2b254896de4cfeb81f901831ad0a06" to="b035a04ebd9a4625ab6717bdf835828b" visibility="package">
+            <owned-items />
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" to="b035a04ebd9a4625ab6717bdf835828b" derived="false">
+              <start-role id="umlar-dcec3a70-2f6a-46f3-8b84-7c9f3c244cb8" name="" navigability="" association-type="association" visibility="private" property-ref="5b240c72918540f789a16beb98905765" />
+              <end-role id="umlar-f0f1758e-eeaa-4baf-9cbd-2efe4974a1be" name="" navigability="" association-type="association" visibility="private" property-ref="ac53ae2979584e20aa589b7da404e868" />
+            </relation>
+          </item>
+          <item id="bf7ce714f54a489db789924e8981f474" cid="UC004" type="use-case" name="ChangeGameSize" creator="" creation-date="10/18/2023 08:33:06" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="50dd2f4123ac4e758d271e87f0857996" cid="REL007" type="relationship" creator="" creation-date="10/18/2023 08:32:19" from="cd2b254896de4cfeb81f901831ad0a06" to="3bfeb03d18384cc5a99297cf17af7e81" visibility="package">
+            <owned-items />
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" to="3bfeb03d18384cc5a99297cf17af7e81" derived="false">
+              <start-role id="umlar-4732b607-c9b1-4292-a691-8425ee6cbb97" name="" navigability="" association-type="association" visibility="private" property-ref="e46ea494c19541f48b8871a1d9e7a0f8" />
+              <end-role id="umlar-edc87ce5-e665-4ab9-b077-8f57036798e1" name="" navigability="" association-type="association" visibility="private" property-ref="918b17f9142d465abc9f2b18d60b35ed" />
+            </relation>
+          </item>
+          <item id="65b3641c161e435ca0a1e357e49fbfa2" cid="AC001" type="actor" name="Jogador" creator="" creation-date="10/18/2023 08:30:58" visibility="undefined" />
+          <item id="7c5295cae2a04b64b8b8b21183707bda" cid="DEP001" type="dependency" creator="" creation-date="10/18/2023 08:46:23" from="2f8c3378439c43b3b09571500b91d37f" to="b035a04ebd9a4625ab6717bdf835828b" visibility="package">
+            <stereotypes>
+              <stereotype name="invokes" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="7c5295cae2a04b64b8b8b21183707bda_invokes_c" type="invokes" creation-date="10/19/2023 14:28:34" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="a4c61b2850074e8fa0113ec9a33f3ea3" cid="REL008" type="relationship" creator="" creation-date="10/18/2023 08:32:51" from="cd2b254896de4cfeb81f901831ad0a06" to="65b3641c161e435ca0a1e357e49fbfa2" visibility="package">
+            <owned-items />
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" to="65b3641c161e435ca0a1e357e49fbfa2" derived="false">
+              <start-role id="umlar-69ae4e4b-5ec4-4e10-bec5-4588d395c2f0" name="" navigability="" association-type="association" visibility="private" property-ref="c15f8429024d49df93e3a0cafb62ad9b" />
+              <end-role id="umlar-10bbc1e1-b0de-41a6-93f9-bdec44388be1" name="" navigability="" association-type="association" visibility="private" property-ref="9cf51deb25e24fea93f1d9e4634149c5" />
+            </relation>
+          </item>
+          <item id="12dc2836a20847ecaca92746e4f71e2c" cid="DEP002" type="dependency" creator="" creation-date="10/18/2023 09:46:13" from="bf7ce714f54a489db789924e8981f474" to="2f8c3378439c43b3b09571500b91d37f" visibility="package">
+            <stereotypes>
+              <stereotype name="invokes" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="12dc2836a20847ecaca92746e4f71e2c_invokes_c" type="invokes" creation-date="10/19/2023 14:28:34" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="2f8c3378439c43b3b09571500b91d37f" cid="UC003" type="use-case" name="Restart" creator="" creation-date="10/18/2023 08:31:19" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="c7b69f91191f44eaa5da73558ab0f073" cid="REL004" type="relationship" creator="" creation-date="10/18/2023 08:32:02" from="cd2b254896de4cfeb81f901831ad0a06" to="2f8c3378439c43b3b09571500b91d37f" visibility="package">
+            <owned-items />
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" to="2f8c3378439c43b3b09571500b91d37f" derived="false">
+              <start-role id="umlar-a7a05caf-c500-4629-8c60-cd80773d3c3b" name="" navigability="" association-type="association" visibility="private" property-ref="e457e6d6cdc240ca89c885b119dbcec5" />
+              <end-role id="umlar-d657774b-1fbc-4e86-af0d-2e5d49b2c292" name="" navigability="" association-type="association" visibility="private" property-ref="5b6522377c994d79a14e01670f18c8cd" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="9aa3199fd8ce41ed829cc5081dd5bfba" name="Default" visible="true" enabled="true" locked="false">
+          <item id="65b3641c161e435ca0a1e357e49fbfa2" iid="f4863fabef964da0b2f8901b038bf308" creation-date="10/18/2023 08:30:58" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="273" ay="395.5" awidth="50" aheight="100" x="273" y="395.5" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="b035a04ebd9a4625ab6717bdf835828b" iid="2903d930bfb04ba98691c8fd6512cbfa" creation-date="10/18/2023 08:31:04" order-index="1" type="entity">
+            <layout ax="758" ay="530" awidth="120" aheight="75" x="758" y="530" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="3bfeb03d18384cc5a99297cf17af7e81" iid="c83e4b0802984b52914712a5cd107cb6" creation-date="10/18/2023 08:31:13" order-index="3" type="entity">
+            <layout ax="758" ay="668.5" awidth="120" aheight="75" x="758" y="668.5" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="2f8c3378439c43b3b09571500b91d37f" iid="dd1a50a204a94fd6b34e25dc65aeb1f4" creation-date="10/18/2023 08:31:19" order-index="5" type="entity">
+            <layout ax="758" ay="373.5" awidth="120" aheight="75" x="758" y="373.5" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="cd2b254896de4cfeb81f901831ad0a06" iid="cb2d40ee664a4996a7c8900b0e75d508" creation-date="10/18/2023 08:31:32" order-index="7" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="507" ay="395.5" awidth="50" aheight="100" x="507" y="395.5" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="c7b69f91191f44eaa5da73558ab0f073" iid="94b88f84ab4449d6a0d603fc5a35b1aa" creation-date="10/18/2023 08:32:02" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="557" y1="443" x2="759" y2="418" start-border-pos="0.36860137939453125" end-border-pos="0.8505244954427084" name-position="0,20">
+              <points>
+                <point x="557" y="443" />
+                <point x="759" y="418" />
+              </points>
+            </layout>
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" from-iid="cb2d40ee664a4996a7c8900b0e75d508" to="2f8c3378439c43b3b09571500b91d37f" to-iid="dd1a50a204a94fd6b34e25dc65aeb1f4" />
+          </item>
+          <item id="7f76462b4ef74c1cbd1d4014cec29812" iid="fdefc03146e44c37b6166706336dc7f1" creation-date="10/18/2023 08:32:13" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="557" y1="457" x2="774" y2="542" start-border-pos="0.4029108428955078" end-border-pos="0.9586480712890625" name-position="0,20">
+              <points>
+                <point x="557" y="457" />
+                <point x="774" y="542" />
+              </points>
+            </layout>
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" from-iid="cb2d40ee664a4996a7c8900b0e75d508" to="b035a04ebd9a4625ab6717bdf835828b" to-iid="2903d930bfb04ba98691c8fd6512cbfa" />
+          </item>
+          <item id="50dd2f4123ac4e758d271e87f0857996" iid="d775cb2640614a93bf451db3801c615a" creation-date="10/18/2023 08:32:19" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="557" y1="469" x2="776" y2="679" start-border-pos="0.4330681610107422" end-border-pos="0.03791669209798177" name-position="0,20">
+              <points>
+                <point x="557" y="469" />
+                <point x="776" y="679" />
+              </points>
+            </layout>
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" from-iid="cb2d40ee664a4996a7c8900b0e75d508" to="3bfeb03d18384cc5a99297cf17af7e81" to-iid="c83e4b0802984b52914712a5cd107cb6" />
+          </item>
+          <item id="a4c61b2850074e8fa0113ec9a33f3ea3" iid="2a9b42eac19640efb2f6ed454e4cdae9" creation-date="10/18/2023 08:32:51" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="507" y1="446" x2="323" y2="446" start-border-pos="0.87375" end-border-pos="0.37625" name-position="0,20">
+              <points>
+                <point x="507" y="446" />
+                <point x="323" y="446" />
+              </points>
+            </layout>
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" from-iid="cb2d40ee664a4996a7c8900b0e75d508" to="65b3641c161e435ca0a1e357e49fbfa2" to-iid="f4863fabef964da0b2f8901b038bf308" />
+          </item>
+          <item id="bf7ce714f54a489db789924e8981f474" iid="0150fab3469d45f695304ac0bca83ae8" creation-date="10/18/2023 08:33:06" order-index="12" type="entity">
+            <layout ax="733" ay="201" awidth="145" aheight="91" x="733" y="201" width="145" height="75" rotation-center="-12.5,-8" />
+            <use-case />
+          </item>
+          <item id="f4eefe8197594362893ba32f606b8453" iid="9878f1262d244055a245c0005b54c513" creation-date="10/18/2023 08:33:06" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="557" y1="428" x2="743" y2="269" start-border-pos="0.33062957763671874" end-border-pos="0.7327931371228449" name-position="0,20">
+              <points>
+                <point x="557" y="428" />
+                <point x="743" y="269" />
+              </points>
+            </layout>
+            <relation from="cd2b254896de4cfeb81f901831ad0a06" from-iid="cb2d40ee664a4996a7c8900b0e75d508" to="bf7ce714f54a489db789924e8981f474" to-iid="0150fab3469d45f695304ac0bca83ae8" />
+          </item>
+          <item id="7c5295cae2a04b64b8b8b21183707bda" iid="d2f435ffca534edfa8ac2dcc08087d7f" creation-date="10/18/2023 08:46:23" order-index="14" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="818" y1="448" x2="818" y2="530" start-border-pos="0.625" end-border-pos="0.125" end-local-pos="60" name-position="27,5">
+              <points>
+                <point x="818" y="448" />
+                <point x="818" y="530" />
+              </points>
+            </layout>
+            <relation from="2f8c3378439c43b3b09571500b91d37f" from-iid="dd1a50a204a94fd6b34e25dc65aeb1f4" to="b035a04ebd9a4625ab6717bdf835828b" to-iid="2903d930bfb04ba98691c8fd6512cbfa" />
+          </item>
+          <item id="12dc2836a20847ecaca92746e4f71e2c" iid="4110bb91109c45d19d958c36925c4117" creation-date="10/18/2023 09:46:13" order-index="15" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="809" y1="291" x2="815" y2="373" start-border-pos="0.6183698983028018" end-border-pos="0.1193939208984375" name-position="32,15" name-width="56">
+              <points>
+                <point x="809" y="291" />
+                <point x="815" y="373" />
+              </points>
+            </layout>
+            <relation from="bf7ce714f54a489db789924e8981f474" from-iid="0150fab3469d45f695304ac0bca83ae8" to="2f8c3378439c43b3b09571500b91d37f" to-iid="dd1a50a204a94fd6b34e25dc65aeb1f4" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="pe82511eb38634c2bad7aa6ad6d3f5ba4_152915955" name="ClassDiagram1" order-index="4" overview-order-index="2" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="101,382" zoom="1.4">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Z</author>
+          </authors>
+          <description />
+          <creation-date>10/18/2023 10:56:58</creation-date>
+          <change-date>10/19/2023 14:34:08</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="deed28850ca04c6796761f6dc830e3cc" cid="REL017" type="relationship" creation-date="10/19/2023 14:30:49" from="d776efdd796c487aae5d1b9ba3a68f3e" to="f547a07d459d49b183d03bcc65d79645" visibility="package">
+            <owned-items />
+            <relation from="d776efdd796c487aae5d1b9ba3a68f3e" to="f547a07d459d49b183d03bcc65d79645" derived="false">
+              <start-role id="umlar-b4987280-13fc-4457-9003-449a80fc3174" name="" navigability="" association-type="association" visibility="private" property-ref="dab6af5e118446f4b31c0fe6e329363d" />
+              <end-role id="umlar-b1c9eee8-9bdb-4757-a375-2b156c90fd41" name="" navigability="" association-type="association" visibility="private" property-ref="ebb62efba2fe4b60bb3e112b8e21cef9" />
+            </relation>
+          </item>
+          <item id="dfa438ac12c24affba18b320a598fb4a" cid="REL016" type="relationship" creation-date="10/19/2023 11:18:32" from="df3a449e9362413daff0d97a6affcb6b" to="f547a07d459d49b183d03bcc65d79645" visibility="package">
+            <owned-items />
+            <relation from="df3a449e9362413daff0d97a6affcb6b" to="f547a07d459d49b183d03bcc65d79645" derived="false">
+              <start-role id="umlar-3b0df881-f9a8-4f2e-925b-4187f8ae1814" name="" navigability="" association-type="association" visibility="undefined" property-ref="25efa4eb386046629f1c0f0d8a7475a1" />
+              <end-role id="umlar-585fb25c-63bf-4e24-8b32-47d6df832100" name="" navigability="" association-type="association" visibility="undefined" attribute-ref="a3a1a7f786cd8451994264943f0085aee289" property-ref="174bca184d554493bf2d849aa9ccf241" />
+            </relation>
+          </item>
+          <item id="9599cabf8d0e47d49e5ac2544c468290" cid="C005" type="class" name="Piece :Node2D" creation-date="10/19/2023 10:41:17" visibility="undefined">
+            <operations>
+              <operation id="o5d615680266b40c5ab3de62c98dce89f290" cid="OP009" name="Move" creation-date="10/19/2023 12:29:54" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pe1537152390b4074b0f1662c26941e04" name="position" type="Vector2D" type-id="Vector2D" creation-date="10/19/2023 14:28:34" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="777b138d3da143738a8c817e072b71a0" cid="PROP041" type="property" name="TextureButton6x6" owner="d776efdd796c487aae5d1b9ba3a68f3e" creation-date="10/19/2023 11:34:40" visibility="public">
+            <structural-feature type="TextureButton" type-id="TextureButton" />
+          </item>
+          <item id="fc1f51e28e3e47e68a6a6436bf3ccf2c" cid="PROP040" type="property" name="+ TextureButton5x5" owner="d776efdd796c487aae5d1b9ba3a68f3e" creation-date="10/19/2023 11:34:31" visibility="protected">
+            <structural-feature type="TextureButton" type-id="TextureButton" />
+          </item>
+          <item id="f547a07d459d49b183d03bcc65d79645" cid="C002" type="class" name="GameManager :Node2D" creator="" creation-date="10/18/2023 10:57:07" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a4dea1bdc266b4cd9a921e190c555e80c704" cid="PROP021" name="timer" creation-date="10/18/2023 10:57:29" property-ref="933fd619d0e04e87be0d4ac96931d020" />
+              <attribute id="a51140e8434984f0bb026fda9235d1865309" cid="PROP022" name="moves" creation-date="10/18/2023 10:57:37" property-ref="b1248eafd2804f1fac20100607dba775" />
+              <attribute id="a3a1a7f786cd8451994264943f0085aee289" cid="PROP023" name="Board" creation-date="10/18/2023 10:58:10" property-ref="e25b6739746748afbeda793b3e39efb0" />
+              <attribute id="a2b1abfde9cb04ef5b10c270be3c9b574820" cid="PROP026" name="BoardData" creation-date="10/19/2023 10:42:58" property-ref="bce2bad073e14536a47e4d7fde4616ba" />
+              <attribute id="abd2e04fe1520489d8b26facee2028bf6690" cid="PROP043" name="BoardSolution" creation-date="10/19/2023 12:32:47" property-ref="0be4f4cfedbf4772b196737af809990f" />
+            </attributes>
+            <operations>
+              <operation id="oc4c7420c5028446ca229656b82f73ca6687" cid="OP001" name="InitBoard" creation-date="10/18/2023 10:59:28" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb102bdbc7a814eabb21ce602fdfd9851" name="boardSize" type="int" type-id="GD.int" creation-date="10/19/2023 14:28:34" />
+                </parameters>
+                <documentations>
+                  <doc id="4a5b5f9008e44769b9cb5f4a657e9ceb">
+                    <text>
+                      <default>
+                        <style font-name="Microsoft Sans Serif" font-size="7.8">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles>
+                        <style name="S1" font-name="Microsoft Sans Serif" font-size="16">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </styles>
+                      <content>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p s="S1">
+                            <t>Inicializa </t>
+                          </p>
+                          <p s="S1">
+                            <t>o </t>
+                          </p>
+                          <p s="S1">
+                            <t>BoardData</t>
+                          </p>
+                          <p s="S1">
+                            <t> </t>
+                          </p>
+                          <p s="S1">
+                            <t>de </t>
+                          </p>
+                          <p s="S1">
+                            <t>acordo </t>
+                          </p>
+                          <p s="S1">
+                            <t>com </t>
+                          </p>
+                          <p s="S1">
+                            <t>o </t>
+                          </p>
+                          <p s="S1">
+                            <t>tamanho </t>
+                          </p>
+                          <p s="S1">
+                            <t>escolhido </t>
+                          </p>
+                          <p s="S1">
+                            <t>na </t>
+                          </p>
+                          <p s="S1">
+                            <t>janela </t>
+                          </p>
+                          <p s="S1">
+                            <t>inicial.
+</t>
+                          </p>
+                        </paragraph>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p s="S1">
+                            <t>Popula </t>
+                          </p>
+                          <p s="S1">
+                            <t>o </t>
+                          </p>
+                          <p s="S1">
+                            <t>Board</t>
+                          </p>
+                          <p s="S1">
+                            <t>Data </t>
+                          </p>
+                          <p s="S1">
+                            <t>com </t>
+                          </p>
+                          <p s="S1">
+                            <t>as </t>
+                          </p>
+                          <p s="S1">
+                            <t>peças </t>
+                          </p>
+                          <p s="S1">
+                            <t>[Piece] </t>
+                          </p>
+                          <p s="S1">
+                            <t>e </t>
+                          </p>
+                          <p s="S1">
+                            <t>mais </t>
+                          </p>
+                          <p s="S1">
+                            <t>um </t>
+                          </p>
+                          <p s="S1">
+                            <t>valor </t>
+                          </p>
+                          <p s="S1">
+                            <t>'null' </t>
+                          </p>
+                          <p s="S1">
+                            <t>que </t>
+                          </p>
+                          <p s="S1">
+                            <t>será </t>
+                          </p>
+                          <p s="S1">
+                            <t>o </t>
+                          </p>
+                          <p s="S1">
+                            <t>espaço </t>
+                          </p>
+                          <p s="S1">
+                            <t>vazio. </t>
+                          </p>
+                          <p s="S1">
+                            <t>(Em </t>
+                          </p>
+                          <p s="S1">
+                            <t>formato </t>
+                          </p>
+                          <p s="S1">
+                            <t>de </t>
+                          </p>
+                          <p s="S1">
+                            <t>matriz </t>
+                          </p>
+                          <p s="S1">
+                            <t>- </t>
+                          </p>
+                          <p s="S1">
+                            <t>3x3, </t>
+                          </p>
+                          <p s="S1">
+                            <t>4x4)
+</t>
+                          </p>
+                        </paragraph>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p s="S1">
+                            <t>Embaralha </t>
+                          </p>
+                          <p s="S1">
+                            <t>as </t>
+                          </p>
+                          <p s="S1">
+                            <t>peças </t>
+                          </p>
+                          <p s="S1">
+                            <t>no </t>
+                          </p>
+                          <p s="S1">
+                            <t>tabuleiro </t>
+                          </p>
+                          <p s="S1">
+                            <t>[BoardData</t>
+                          </p>
+                          <p s="S1">
+                            <t>] </t>
+                          </p>
+                          <p s="S1">
+                            <t>e</t>
+                          </p>
+                          <p s="S1">
+                            <t> </t>
+                          </p>
+                          <p s="S1">
+                            <t>as </t>
+                          </p>
+                          <p s="S1">
+                            <t>exibe </t>
+                          </p>
+                          <p s="S1">
+                            <t>no </t>
+                          </p>
+                          <p s="S1">
+                            <t>Board </t>
+                          </p>
+                          <p s="S1">
+                            <t>[GridContainer]
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </doc>
+                </documentations>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5396f44ec95649d4a658c02465cc55dc164" cid="OP002" name="IsInPlace" creation-date="10/18/2023 11:49:39" type="bool" type-id="bool" visibility="private">
+                <documentations>
+                  <doc id="95f38d809ee54ad6b1dd8d64285b91f6">
+                    <text>
+                      <default>
+                        <style font-name="Microsoft Sans Serif" font-size="7.8">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p>
+                            <t>Checa </t>
+                          </p>
+                          <p>
+                            <t>se </t>
+                          </p>
+                          <p>
+                            <t>a </t>
+                          </p>
+                          <p>
+                            <t>'pedra' </t>
+                          </p>
+                          <p>
+                            <t>está </t>
+                          </p>
+                          <p>
+                            <t>na </t>
+                          </p>
+                          <p>
+                            <t>posição </t>
+                          </p>
+                          <p>
+                            <t>certa </t>
+                          </p>
+                          <p>
+                            <t>para </t>
+                          </p>
+                          <p>
+                            <t>a </t>
+                          </p>
+                          <p>
+                            <t>colorir.
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </doc>
+                </documentations>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4172075d9b514858ba934cc78c033451143" cid="OP008" name="ShuffleBoard" creation-date="10/19/2023 11:41:51" type="" type-id="" visibility="private" />
+              <operation id="o201aabcb93284948bdcc2d5b46121c98369" cid="OP010" name="Play" creation-date="10/19/2023 12:31:13" type="" type-id="" visibility="public" />
+              <operation id="o01426aada8ef4dbcafa5aac753c32ffc723" cid="OP011" name="Pause" creation-date="10/19/2023 12:31:19" type="" type-id="" visibility="public" />
+              <operation id="of6d65af1180543f5b7a3b9e7e08592d8428" cid="OP012" name="Restart" creation-date="10/19/2023 12:31:24" type="" type-id="" visibility="public" />
+              <operation id="o9171a696e3bc4bbaaa7d2552a847a69a810" cid="OP013" name="ResetGame" creation-date="10/19/2023 12:31:50" type="" type-id="" visibility="private" />
+              <operation id="o0f0262ad129545b4854bd81cef51bc1b393" cid="OP014" name="CanMakeMove" creation-date="10/19/2023 12:36:51" type="bool" type-id="bool" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oec24837f1d0e472baeed798797fc2a57559" cid="OP015" name="DidMoveWin" creation-date="10/19/2023 12:38:01" type="bool" type-id="bool" visibility="private" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="df3a449e9362413daff0d97a6affcb6b" cid="C007" type="class" name="Game :MarginContainer" creation-date="10/19/2023 11:18:08" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a85fe816e162c40f1b66f85d6c5d43f04245" cid="PROP042" name="GridContainer" creation-date="10/19/2023 12:26:03" property-ref="68a883824afb4e56b7d7f91bd88dccab" />
+            </attributes>
+          </item>
+          <item id="8815b7868f9840848341d2ba52b4f89d" cid="PROP039" type="property" name="TextureButton4x4" owner="d776efdd796c487aae5d1b9ba3a68f3e" creation-date="10/19/2023 11:33:44" visibility="public">
+            <structural-feature type="TextureButton" type-id="TextureButton" />
+          </item>
+          <item id="ef4abc15e4db4d769103af179ac1e90d" cid="REL011" type="relationship" creation-date="10/19/2023 10:41:36" from="9599cabf8d0e47d49e5ac2544c468290" to="f547a07d459d49b183d03bcc65d79645" visibility="package">
+            <owned-items />
+            <relation from="9599cabf8d0e47d49e5ac2544c468290" to="f547a07d459d49b183d03bcc65d79645" derived="false">
+              <start-role id="umlar-ff3c7271-bee9-429d-9f67-3a9d02bc3ea5" name="" navigability="" association-type="association" visibility="private" property-ref="fb0f9f0fa7fe47c5b766c08df161f4fd" />
+              <end-role id="umlar-ac8b4097-54fc-4ae4-84b2-ecfb456dee56" name="" navigability="" association-type="association" visibility="private" attribute-ref="a3a1a7f786cd8451994264943f0085aee289" property-ref="74de5b2c15834629a9358223fcebb9be" />
+            </relation>
+          </item>
+          <item id="68a883824afb4e56b7d7f91bd88dccab" cid="PROP042" type="property" name="GridContainer" owner="df3a449e9362413daff0d97a6affcb6b" creation-date="10/19/2023 12:26:03" visibility="public">
+            <structural-feature type="GridContainer" type-id="GridContainer" />
+          </item>
+          <item id="f85fa597d5db415daf2e43a575f0d047" cid="PROP038" type="property" name="TextureButton3x3" owner="d776efdd796c487aae5d1b9ba3a68f3e" creation-date="10/19/2023 11:32:51" visibility="public">
+            <structural-feature type="TextureButton" type-id="TextureButton" />
+          </item>
+          <item id="d776efdd796c487aae5d1b9ba3a68f3e" cid="C003" type="class" name="StartScreen :Control" creator="" creation-date="10/18/2023 11:11:57" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a7dfa87e18e0b46a3be5d5c22fec7ad5d835" cid="PROP038" name="TextureButton3x3" creation-date="10/19/2023 11:32:51" property-ref="f85fa597d5db415daf2e43a575f0d047" />
+              <attribute id="a7d2eea141cd147c28f2acd101aa7b275987" cid="PROP039" name="TextureButton4x4" creation-date="10/19/2023 11:33:44" property-ref="8815b7868f9840848341d2ba52b4f89d" />
+              <attribute id="a87bcf3424b774529b5b59e05c755bcb5619" cid="PROP040" name="+ TextureButton5x5" creation-date="10/19/2023 11:34:31" property-ref="fc1f51e28e3e47e68a6a6436bf3ccf2c" />
+              <attribute id="a6e41133f7f4045fe876b2a701fbf9e27316" cid="PROP041" name="TextureButton6x6" creation-date="10/19/2023 11:34:40" property-ref="777b138d3da143738a8c817e072b71a0" />
+            </attributes>
+            <operations>
+              <operation id="o1b55b9cb95ae479bb776b0afd281af3f847" cid="OP004" name="_On_TextureButton3x3_Pressed" creation-date="10/19/2023 11:34:00" type="" type-id="" visibility="public" />
+              <operation id="oc03eb5cebacf40b39d26ecac09af2fe9858" cid="OP005" name="_On_TextureButton4x4_Pressed" creation-date="10/19/2023 11:34:55" type="" type-id="" visibility="public" />
+              <operation id="o790287cbbf364e09a53d6118ccb5daad710" cid="OP006" name="_On_TextureButton5x5_Pressed" creation-date="10/19/2023 11:35:05" type="" type-id="" visibility="public" />
+              <operation id="od93c701e1db04612ba5bc046ed4ed304378" cid="OP007" name="_On_TextureButton6x6_Pressed" creation-date="10/19/2023 11:35:14" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="4316e4d8449947f98869fba62814517b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="f547a07d459d49b183d03bcc65d79645" iid="1460edb3fbed44cba36d3f44bf61f91a" show-fields="true" creation-date="10/18/2023 10:57:07" order-index="0" type="entity">
+            <layout ax="304" ay="305" awidth="232" aheight="307" x="304" y="305" width="232" height="160" rotation-center="-46,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="d776efdd796c487aae5d1b9ba3a68f3e" iid="06825bb0511e4e70ba46b21e42583a61" show-fields="true" creation-date="10/18/2023 11:11:57" order-index="1" type="entity">
+            <layout ax="287" ay="-82" awidth="273" aheight="193" x="287" y="-82" width="273" height="160" rotation-center="-66.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="9599cabf8d0e47d49e5ac2544c468290" iid="164c56fbdc7248dfad36be99c24b7086" show-fields="true" creation-date="10/19/2023 10:41:17" order-index="2" type="entity">
+            <layout ax="679" ay="305" awidth="217" aheight="160" x="679" y="305" width="217" height="160" rotation-center="-38.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ef4abc15e4db4d769103af179ac1e90d" iid="97d6834f1f80495ba3a396da8de35274" creation-date="10/19/2023 10:41:36" order-index="3" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="true" auto-path="" x1="679" y1="407" x2="536" y2="384" start-border-pos="0.841215181350708" end-border-pos="0.31392508143322473" end-local-pos="79" name-position="0,20">
+              <points>
+                <point x="679" y="407" />
+                <point x="536" y="384" />
+              </points>
+            </layout>
+            <relation from="9599cabf8d0e47d49e5ac2544c468290" from-iid="164c56fbdc7248dfad36be99c24b7086" to="f547a07d459d49b183d03bcc65d79645" to-iid="1460edb3fbed44cba36d3f44bf61f91a" to-field="a3a1a7f786cd8451994264943f0085aee289" />
+          </item>
+          <item id="df3a449e9362413daff0d97a6affcb6b" iid="91b9d0e5557b41f7b5f3b7577f77bcd6" show-fields="true" creation-date="10/19/2023 11:18:08" order-index="4" type="entity">
+            <layout ax="-145" ay="278.2847" awidth="217" aheight="160" x="-145" y="278.2847" width="217" height="160" rotation-center="38.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dfa438ac12c24affba18b320a598fb4a" iid="9e3e567bcc844c179e7accfae46fca05" creation-date="10/19/2023 11:18:32" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="true" auto-path="" x1="72" y1="382" x2="304" y2="384" start-border-pos="0.4115617275238037" end-border-pos="0.9360749185667753" end-local-pos="79" name-position="0,20">
+              <points>
+                <point x="72" y="382" />
+                <point x="304" y="384" />
+              </points>
+            </layout>
+            <relation from="df3a449e9362413daff0d97a6affcb6b" from-iid="91b9d0e5557b41f7b5f3b7577f77bcd6" to="f547a07d459d49b183d03bcc65d79645" to-iid="1460edb3fbed44cba36d3f44bf61f91a" to-field="a3a1a7f786cd8451994264943f0085aee289" />
+          </item>
+          <item id="bee9a32cff4a481888bca64e9e737282" iid="0c627fa382c14aa49810eb4d3d6a8e18" creation-date="10/19/2023 11:35:32" order-index="6" type="entity">
+            <layout ax="688.5" ay="-82" awidth="140" aheight="100" x="688.5" y="-82" width="140" height="100" />
+          </item>
+          <item id="die6b13a97c6d842cfa41c0bbb9aa1addd7087" iid="df61c44a210e4ec6aedea71f9ec88c85" creation-date="10/19/2023 11:35:32" order-index="7" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="688" y1="-22" x2="560" y2="-5" start-border-pos="0.8508982038497925" end-border-pos="0.35008997497163286" name-position="0,20">
+              <points>
+                <point x="688" y="-22" />
+                <point x="560" y="-5" />
+              </points>
+            </layout>
+            <relation from="bee9a32cff4a481888bca64e9e737282" from-iid="0c627fa382c14aa49810eb4d3d6a8e18" to="d776efdd796c487aae5d1b9ba3a68f3e" to-iid="06825bb0511e4e70ba46b21e42583a61" />
+          </item>
+          <item id="85c15ac2dd824c7e82b1aef07a736f20" iid="8ced461554494d01b82ceebc1887dab8" creation-date="10/19/2023 12:26:58" order-index="8" type="entity">
+            <layout ax="123" ay="178.2847" awidth="140" aheight="100" x="123" y="178.2847" width="140" height="100" />
+          </item>
+          <item id="di277b496c0ac147cf8ca58788a679c9822921" iid="d6f030e1c91d4cc3b29c3cf5473e6965" creation-date="10/19/2023 12:26:58" order-index="9" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="191" y1="278" x2="193" y2="383" start-border-pos="0.6278077261788504" end-border-pos="0.521551723668737" name-position="-18,31">
+              <points>
+                <point x="191" y="278" />
+                <point x="193" y="383" />
+              </points>
+            </layout>
+            <relation from="85c15ac2dd824c7e82b1aef07a736f20" from-iid="8ced461554494d01b82ceebc1887dab8" to="dfa438ac12c24affba18b320a598fb4a" to-iid="9e3e567bcc844c179e7accfae46fca05" />
+          </item>
+          <item id="9d980b8a79e34ed9aceee8e6cd2f587b" iid="54fa043a6e0f4743b61d98e67951cd76" creation-date="10/19/2023 14:29:12" order-index="10" type="entity">
+            <layout ax="838.5" ay="166" awidth="140" aheight="100" x="838.5" y="166" width="140" height="100" />
+          </item>
+          <item id="dif7514f0249d840eb893cd952e7ea1c872860" iid="a279ac087fa141f491d27f4c078226b2" creation-date="10/19/2023 14:29:12" order-index="11" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="872" y1="266" x2="845" y2="305" start-border-pos="0.6892909458705357" end-border-pos="0.19101929554741504" name-position="0,20">
+              <points>
+                <point x="872" y="266" />
+                <point x="845" y="305" />
+              </points>
+            </layout>
+            <relation from="9d980b8a79e34ed9aceee8e6cd2f587b" from-iid="54fa043a6e0f4743b61d98e67951cd76" to="9599cabf8d0e47d49e5ac2544c468290" to-iid="164c56fbdc7248dfad36be99c24b7086" />
+          </item>
+          <item id="deed28850ca04c6796761f6dc830e3cc" iid="90307a79da0542d1abb18bd02a8e583f" creation-date="10/19/2023 14:30:49" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="423" y1="111" x2="420" y2="305" start-border-pos="0.6257631350786258" end-border-pos="0.125" end-local-pos="116" name-position="0,20">
+              <points>
+                <point x="423" y="111" />
+                <point x="420" y="305" />
+              </points>
+            </layout>
+            <relation from="d776efdd796c487aae5d1b9ba3a68f3e" from-iid="06825bb0511e4e70ba46b21e42583a61" to="f547a07d459d49b183d03bcc65d79645" to-iid="1460edb3fbed44cba36d3f44bf61f91a" />
+          </item>
+          <item id="2c891fcfc5d049f681e5e0ca0fef8b4e" iid="d5eaaf0134044f44a2328ec4e317bc7d" creation-date="10/19/2023 14:34:07" order-index="13" type="entity">
+            <layout ax="-557.5" ay="165.7847" awidth="294" aheight="125" x="-557.5" y="165.7847" width="117" height="125" />
+          </item>
+          <item id="di514991ce17a34957b7542df01b8c11aa7387" iid="fca8b1506e3e4396830760183ba913e8" creation-date="10/19/2023 14:34:07" order-index="14" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-264" y1="279" x2="-145" y2="320" start-border-pos="0.4766231079101563" end-border-pos="0.934644365310669" name-position="0,20">
+              <points>
+                <point x="-264" y="279" />
+                <point x="-145" y="320" />
+              </points>
+            </layout>
+            <relation from="2c891fcfc5d049f681e5e0ca0fef8b4e" from-iid="d5eaaf0134044f44a2328ec4e317bc7d" to="df3a449e9362413daff0d97a6affcb6b" to-iid="91b9d0e5557b41f7b5f3b7577f77bcd6" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p2fc625ca143544c983c7714a0811c0ce_782636350" name="SequenceDiagram1" order-index="5" overview-order-index="3" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-696,288" zoom="1.2">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>SimpleAndEllegant</author>
+          </authors>
+          <description />
+          <creation-date>10/20/2023 07:40:16</creation-date>
+          <change-date>10/20/2023 07:51:25</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="24055717132f4403b7d622961c65bd4c" cid="AB005" type="activation-bar" name="ExecutionOccurrence4" owner="bb03625cc885466388bd482d3ae5411a" creation-date="10/20/2023 07:50:56" visibility="undefined" />
+          <item id="f3f85044cce644888cd0529fd0fdcd9a" cid="AB006" type="activation-bar" name="ExecutionOccurrence5" owner="2567d0115c8140a28b39771ecafc7b6c" creation-date="10/20/2023 07:50:56" visibility="undefined">
+            <activation-bar lifeline-ref="2567d0115c8140a28b39771ecafc7b6c" />
+          </item>
+          <item id="1c3e9edc9f164b8296c4148ca64e0909" cid="AB002" type="activation-bar" name="ExecutionOccurrence1" owner="2567d0115c8140a28b39771ecafc7b6c" creation-date="10/20/2023 07:43:09" visibility="undefined">
+            <activation-bar lifeline-ref="2567d0115c8140a28b39771ecafc7b6c" />
+          </item>
+          <item id="6ebf297625604b5a855544e644c2e620" cid="SM002" type="sequence-action" name="Message2" creation-date="10/20/2023 07:50:54" from="24055717132f4403b7d622961c65bd4c" to="f3f85044cce644888cd0529fd0fdcd9a" visibility="package">
+            <sequence-action type="call" message="_On_TextureButton3x3_Pressed ()" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="2567d0115c8140a28b39771ecafc7b6c" cid="LL001" type="lifeline" creation-date="10/20/2023 07:41:29" visibility="undefined">
+            <owned-items />
+            <lifeline classifier-name="StartScreen" classifier-ref="dfe3508685934b1995131974010ec1d9" selector="" is-multi-object="false" />
+          </item>
+          <item id="573d2049873e4cb29ef3fc5a3d56dfbb" cid="LL002" type="lifeline" creation-date="10/20/2023 07:42:29" visibility="undefined">
+            <owned-items />
+            <lifeline classifier-name="GameManager" classifier-ref="06ab00d3e0594cc683bcb814cff99ce6" selector="" is-multi-object="false" />
+          </item>
+          <item id="194678f8cc7e47cfa9361c2b13b7f124" cid="AB003" type="activation-bar" name="ExecutionOccurrence2" owner="573d2049873e4cb29ef3fc5a3d56dfbb" creation-date="10/20/2023 07:43:09" visibility="undefined">
+            <activation-bar lifeline-ref="573d2049873e4cb29ef3fc5a3d56dfbb" />
+          </item>
+          <item id="bb03625cc885466388bd482d3ae5411a" cid="AC003" type="actor" name="Actor3" creation-date="10/20/2023 07:50:40" visibility="undefined">
+            <owned-items />
+          </item>
+        </abstract-items>
+        <layer id="8ff67c56b1404f73b78eaea71bcf03b7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="2567d0115c8140a28b39771ecafc7b6c" iid="dd35946b6334458289891da9ae7e888b" creation-date="10/20/2023 07:41:29" order-index="0" type="lifeline">
+            <layout ax="-39" ay="148" awidth="223" aheight="500" x="-39" y="148" width="223" height="500" expanded="-39,148,223,500" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="573d2049873e4cb29ef3fc5a3d56dfbb" iid="fe725c839bfd48c394ef3614e75974bc" creation-date="10/20/2023 07:42:29" order-index="1" type="lifeline">
+            <layout ax="319" ay="148" awidth="140" aheight="500" x="319" y="148" width="140" height="500" expanded="319,148,140,500" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="bb03625cc885466388bd482d3ae5411a" iid="2d892bc46bfa49af9e1dad842e6b80cf" creation-date="10/20/2023 07:50:40" order-index="5" type="lifeline">
+            <layout ax="-356" ay="148" awidth="140" aheight="500" x="-356" y="148" width="140" height="500" expanded="-356,148,140,500" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="6ebf297625604b5a855544e644c2e620" iid="e8c3b136502540e28a3f09a13c4d4793" creation-date="10/20/2023 07:50:54" order-index="6" type="relation">
+            <layout message-x="-107" message-y="247" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-276" y1="227" x2="62" y2="227" start-border-pos="0.251" end-border-pos="0.96875" start-local-pos="0" end-local-pos="5" name-position="0,20">
+              <points>
+                <point x="-276" y="227" />
+                <point x="62" y="227" />
+              </points>
+            </layout>
+            <relation from="24055717132f4403b7d622961c65bd4c" from-iid="c4ebe44dedc64879a68a84f5a62a8d75" to="f3f85044cce644888cd0529fd0fdcd9a" to-iid="08dc93c1fea54f10b6ee857418aa867f" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="24055717132f4403b7d622961c65bd4c" iid="c4ebe44dedc64879a68a84f5a62a8d75" container="bb03625cc885466388bd482d3ae5411a" container-iid="2d892bc46bfa49af9e1dad842e6b80cf" creation-date="10/20/2023 07:50:56" order-index="7" type="entity">
+            <layout ax="-296" ay="227" awidth="20" aheight="40" x="-296" y="227" width="20" height="40" expanded="-296,227,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="f3f85044cce644888cd0529fd0fdcd9a" iid="08dc93c1fea54f10b6ee857418aa867f" container="2567d0115c8140a28b39771ecafc7b6c" container-iid="dd35946b6334458289891da9ae7e888b" creation-date="10/20/2023 07:50:56" order-index="8" type="entity">
+            <layout ax="62.5" ay="222" awidth="20" aheight="40" x="62.5" y="222" width="20" height="40" expanded="62,222,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p9754a51ca65f45e0bbfbcb4a58b1cbab_221734508" name="Puzzle15_CD" order-index="6" overview-order-index="4" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="861,-26" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>SimpleAndEllegant</author>
+          </authors>
+          <description />
+          <creation-date>10/20/2023 10:41:57</creation-date>
+          <change-date>10/23/2023 15:21:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="4dd6a0ed83bf4307addad40de9c06936" cid="C014" type="class" name="Grid: Control" creation-date="10/23/2023 15:19:35">
+            <operations>
+              <operation id="o14fc475d52ee49be90a5ef89ab309b92332" cid="OP039" name="_input" creation-date="10/23/2023 15:20:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc5539f0494b246eaab0ac0d0186f64ab" name="event" type="" type-id="" creation-date="10/23/2023 15:20:08" />
+                </parameters>
+              </operation>
+              <operation id="oc9a2a69a03db430f9c3dab34b9a6aff9226" cid="OP040" name="InvertInputPosition" creation-date="10/23/2023 15:20:10" type="Vector2" type-id="Vector2" visibility="public">
+                <parameters>
+                  <parameter id="p303bd6a638b34b298ddf258f8f5febe7" name="input_pos" type="Vector2" type-id="Vector2" creation-date="10/23/2023 15:20:34" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="036f3849d1ac479d86cef0f85adbca8c" cid="PROP062" type="property" name="game_solution" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 11:58:48" visibility="protected">
+            <structural-feature type="Piece[]" type-id="Piece[]" />
+          </item>
+          <item id="bdc7b5eadfc04ccca5a0b40f9ce56ba2" cid="REL018" type="relationship" creation-date="10/20/2023 10:51:54" from="53efd17f833549938700084b0fa00be1" to="20d29950e98d4d73a5fe404007ad5b98" visibility="package">
+            <owned-items />
+            <relation from="53efd17f833549938700084b0fa00be1" to="20d29950e98d4d73a5fe404007ad5b98" derived="false">
+              <start-role id="umlar-4cdd7d88-ccc4-416e-95b3-8721fc7b5f29" name="" navigability="" association-type="association" visibility="private" property-ref="e54810dceeaa4962b68b2e1c13183be9" />
+              <end-role id="umlar-5dbbfd4c-2c31-445c-a90f-0737781b1513" name="" navigability="" association-type="association" visibility="private" property-ref="c163e7b8a2964b698c028919fbef5428" />
+            </relation>
+          </item>
+          <item id="a1043da72be145c3815e8ab12ea4d0fa" cid="PROP072" type="property" name="game_mode" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 16:57:16" visibility="protected">
+            <structural-feature type="int" type-id="GD.int" />
+          </item>
+          <item id="2dff96dd3a6b400aa5cd16c00bd8940f" cid="PROP077" type="property" name="pre_piece" owner="20d29950e98d4d73a5fe404007ad5b98" creation-date="10/21/2023 18:56:00" visibility="protected">
+            <structural-feature type="PackedScene" type-id="PackedScene" />
+          </item>
+          <item id="b508b69b6282426bb1c9dfb80daba70f" cid="PROP063" type="property" name="elapsed_time" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 13:56:53" visibility="protected">
+            <structural-feature type="float" type-id="float" />
+          </item>
+          <item id="5573c9de4dee44e69e080d68284bed8c" cid="PROP055" type="property" name="moves_label" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 11:14:07" visibility="protected">
+            <structural-feature type="Label" type-id="Label" />
+          </item>
+          <item id="fc2e6839680d4a8f9e97e6f2441da07c" cid="PROP057" type="property" name="grid" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 11:19:42" visibility="protected">
+            <structural-feature type="Control" type-id="Control" />
+          </item>
+          <item id="53efd17f833549938700084b0fa00be1" cid="C010" type="class" name="StartScreen :Control" creation-date="10/20/2023 10:42:46" visibility="undefined">
+            <operations>
+              <operation id="ob5bcdec7dde44d07b1ce0f26c22b51ee164" cid="OP016" name="_On_TextureButton3x3_Pressed" creation-date="10/20/2023 10:44:41" type="" type-id="" visibility="public" />
+              <operation id="o32112325d18e40669f2215522ffeaa34458" cid="OP021" name="InitiateGame" creation-date="10/20/2023 11:36:00" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p3ae563713750427c938a902eadee6601" name="mode" type="int" type-id="GD.int" creation-date="10/20/2023 11:36:07" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="8e2a3d2309f44171976fc52015dfba3b" cid="PROP056" type="property" name="time_label" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 11:14:31" visibility="protected">
+            <structural-feature type="Label" type-id="Label" />
+          </item>
+          <item id="827006a6d6d74efb97dfd6768089debd" cid="REL022" type="relationship" creation-date="10/20/2023 14:28:10" from="e6241365cd2b409b8b039394de2eb39c" to="2be630c7765844e5bf43b7a3823aea48" visibility="package">
+            <owned-items />
+            <relation from="e6241365cd2b409b8b039394de2eb39c" to="2be630c7765844e5bf43b7a3823aea48" derived="false">
+              <start-role id="umlar-3fb9e08b-3196-4cc4-a6d9-a014a3fee993" name="" navigability="" association-type="association" visibility="private" property-ref="8f52eba004274ca9925828488411c234" />
+              <end-role id="umlar-b3188aae-1304-4914-a8b3-6c9de3860952" name="" navigability="" association-type="association" visibility="private" property-ref="b72b76f3f8eb450e8c11c4a883c30144" />
+            </relation>
+          </item>
+          <item id="20d29950e98d4d73a5fe404007ad5b98" cid="C011" type="class" name="GameManager" creation-date="10/20/2023 10:45:13" visibility="undefined">
+            <stereotypes>
+              <stereotype name="Singleton [Autoload]" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="20d29950e98d4d73a5fe404007ad5b98_Singleton [Autoload]_c" type="Singleton [Autoload]" creation-date="10/20/2023 11:38:36" ref="" />
+            </stereotype-instances>
+            <owned-items />
+            <attributes>
+              <attribute id="a18f1519403b74178b26474cafb8b9091774" cid="PROP061" name="pre_game" creation-date="10/20/2023 11:36:48" property-ref="1d7b948c378d441eaa80be53280d15ab" />
+              <attribute id="a83e23b731d0b407588127c9b318de0c3271" cid="PROP060" name="game" creation-date="10/20/2023 11:36:27" property-ref="9ce15c1d95cd43629b4c795fde248723" />
+              <attribute id="ae72efe0ddc4f42e5aba0a14617cf69f7979" cid="PROP077" name="pre_piece" creation-date="10/21/2023 18:56:00" property-ref="2dff96dd3a6b400aa5cd16c00bd8940f" />
+            </attributes>
+            <operations>
+              <operation id="o07df46074d964c66b277aba642f83d30247" cid="OP017" name="StartGame" creation-date="10/20/2023 10:48:10" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p293d72ea383a44fa8e5b4c7b76dac214" name="mode" type="int" type-id="GD.int" creation-date="10/20/2023 10:48:25" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob9171ae7edc6472e87eea8963a6b223e171" cid="OP033" name="InstantiatePiece" creation-date="10/21/2023 18:55:06" type="Piece" type-id="Piece" visibility="public">
+                <parameters>
+                  <parameter id="pb201ff4a1306422096b033dd1a05e476" name="piece_size" type="Vector2" type-id="Vector2" creation-date="10/21/2023 18:55:14" />
+                  <parameter id="pd6b62461694c4ae08f3c625f42891a8a" name="number" type="int" type-id="GD.int" creation-date="10/21/2023 18:55:14" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="fd10b2cdf3da4d839ade24657a1e5f3e" cid="PROP058" type="property" name="grid_data" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 11:19:59" visibility="protected">
+            <structural-feature type="Piece[][]" type-id="Piece[][]" />
+          </item>
+          <item id="0754a7956b114c66952aacf597a09c01" cid="REL023" type="relationship" creation-date="10/23/2023 15:20:45" from="4dd6a0ed83bf4307addad40de9c06936" to="2be630c7765844e5bf43b7a3823aea48" visibility="package">
+            <owned-items />
+            <relation from="4dd6a0ed83bf4307addad40de9c06936" to="2be630c7765844e5bf43b7a3823aea48" derived="false">
+              <start-role id="umlar-4844955a-e35a-4fca-b70f-6e508dd7a85e" name="" navigability="" association-type="association" visibility="private" property-ref="c58d833963f447bead5523406d3160c3" />
+              <end-role id="umlar-167081c1-6cc4-4a4e-9950-eb6d6a689246" name="" navigability="" association-type="association" visibility="private" property-ref="77389ea82535440193338c6726e3eaae" />
+            </relation>
+          </item>
+          <item id="afbaa4327e654c829a06ce060a3ee301" cid="PROP064" type="property" name="moves" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/20/2023 14:02:31" visibility="protected">
+            <structural-feature type="int" type-id="GD.int" />
+          </item>
+          <item id="23f8299c374946138840fff4837e8fd5" cid="REL019" type="relationship" creation-date="10/20/2023 10:57:12" from="2be630c7765844e5bf43b7a3823aea48" to="20d29950e98d4d73a5fe404007ad5b98" visibility="package">
+            <owned-items />
+            <relation from="2be630c7765844e5bf43b7a3823aea48" to="20d29950e98d4d73a5fe404007ad5b98" derived="false">
+              <start-role id="umlar-070a191f-ddc1-4e6e-a511-6400d6fe032d" name="" navigability="" association-type="association" visibility="private" property-ref="84e174fbe31f4d1cbc833da42e937515" />
+              <end-role id="umlar-53a14d38-67fe-4ab3-b963-1038e5962d20" name="" navigability="" association-type="association" visibility="private" property-ref="caa2ae1529364626bdc05a69f2c2607f" />
+            </relation>
+          </item>
+          <item id="208ce814fb7a41e3826d5021a1edd7bb" cid="PROP078" type="property" name="last_null_position" owner="2be630c7765844e5bf43b7a3823aea48" creation-date="10/22/2023 21:18:29" visibility="protected">
+            <structural-feature type="Vector2" type-id="Vector2" />
+          </item>
+          <item id="2be630c7765844e5bf43b7a3823aea48" cid="C012" type="class" name="Game" creation-date="10/20/2023 10:53:28" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a44f6677016274906bf8f256df66ddf64898" cid="PROP055" name="moves_label" creation-date="10/20/2023 11:14:07" property-ref="5573c9de4dee44e69e080d68284bed8c" />
+              <attribute id="a8f7ce16c194e4f42b5da958e41a120de108" cid="PROP056" name="time_label" creation-date="10/20/2023 11:14:31" property-ref="8e2a3d2309f44171976fc52015dfba3b" />
+              <attribute id="ab6903a7a9bf44476a04fa6ff51f27580380" cid="PROP057" name="grid" creation-date="10/20/2023 11:19:42" property-ref="fc2e6839680d4a8f9e97e6f2441da07c" />
+              <attribute id="ae242f1de89c74adcb5ca1c04fc48d3f5522" cid="PROP058" name="grid_data" creation-date="10/20/2023 11:19:59" property-ref="fd10b2cdf3da4d839ade24657a1e5f3e" />
+              <attribute id="a55413673bea3487c8d5d23df927eaef4550" cid="PROP062" name="game_solution" creation-date="10/20/2023 11:58:48" property-ref="036f3849d1ac479d86cef0f85adbca8c" />
+              <attribute id="ae96fa7ef381142faad9aeeeb5db06a15240" cid="PROP063" name="elapsed_time" creation-date="10/20/2023 13:56:53" property-ref="b508b69b6282426bb1c9dfb80daba70f" />
+              <attribute id="ad0b5976ee2a7425a94e485da74a5fbed242" cid="PROP064" name="moves" creation-date="10/20/2023 14:02:31" property-ref="afbaa4327e654c829a06ce060a3ee301" />
+              <attribute id="ae3b177ee797040788bfb405c419af7b2401" cid="PROP072" name="game_mode" creation-date="10/20/2023 16:57:16" property-ref="a1043da72be145c3815e8ab12ea4d0fa" />
+              <attribute id="aaab290aedd174ceba6e3feb0034ea978466" cid="PROP078" name="last_null_position" creation-date="10/22/2023 21:18:29" property-ref="208ce814fb7a41e3826d5021a1edd7bb" />
+            </attributes>
+            <operations>
+              <operation id="oefe3b5a0787144769f4899b10d71a51e830" cid="OP030" name="_ready" creation-date="10/21/2023 16:31:25" type="" type-id="" visibility="undefined" />
+              <operation id="ofcc55a244dc34c9daee4a1a95bacb64c299" cid="OP031" name="_process" creation-date="10/21/2023 16:31:31" type="" type-id="" visibility="undefined" />
+              <operation id="ob0e79d9349334401980362b1e45acac9181" cid="OP018" name="Start" creation-date="10/20/2023 10:57:54" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p33b5efec01dc4d0c849fbfc6e352d786" name="mode" type="int" type-id="GD.int" creation-date="10/20/2023 10:58:05" />
+                </parameters>
+                <documentations>
+                  <doc id="f14f74c6be1d46ae9ad7b496d515c973">
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p>
+                            <t>Inicia </t>
+                          </p>
+                          <p>
+                            <t>o </t>
+                          </p>
+                          <p>
+                            <t>jogo </t>
+                          </p>
+                          <p>
+                            <t>chamando </t>
+                          </p>
+                          <p>
+                            <t>os </t>
+                          </p>
+                          <p>
+                            <t>métodos </t>
+                          </p>
+                          <p>
+                            <t>necessários </t>
+                          </p>
+                          <p>
+                            <t>para </t>
+                          </p>
+                          <p>
+                            <t>iniciar </t>
+                          </p>
+                          <p>
+                            <t>uma </t>
+                          </p>
+                          <p>
+                            <t>partida
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </doc>
+                </documentations>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe44dc33aa7a0452caa42ea388737d557297" cid="OP019" name="InitGrid" creation-date="10/20/2023 11:14:00" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pacffa30507b64b46b0331f0439c793d3" name="_size" type="int" type-id="GD.int" creation-date="10/20/2023 11:26:35" />
+                </parameters>
+                <documentations>
+                  <doc id="bfcfe1c6399f4228a03c57d299424a0b">
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p>
+                            <t>Inicia </t>
+                          </p>
+                          <p>
+                            <t>um </t>
+                          </p>
+                          <p>
+                            <t>grid </t>
+                          </p>
+                          <p>
+                            <t>com </t>
+                          </p>
+                          <p>
+                            <t>tamanho </t>
+                          </p>
+                          <p>
+                            <t>igual </t>
+                          </p>
+                          <p>
+                            <t>NxN
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </doc>
+                </documentations>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odcfea838c7024b50a019aee76e210bd5900" cid="OP028" name="MakeGrid" creation-date="10/20/2023 16:47:16" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pdd4ed51167744afb95a115be74ee56ad" name="_size" type="int" type-id="GD.int" creation-date="10/20/2023 16:47:25" />
+                </parameters>
+              </operation>
+              <operation id="of6f09e5076bc49adbf471756b2660b56587" cid="OP020" name="Shuffle" creation-date="10/20/2023 11:29:26" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pfcd9464ea01345a1ae50931dd97bb11d" name="times" type="int" type-id="GD.int" creation-date="10/20/2023 11:29:36" />
+                </parameters>
+                <documentations>
+                  <doc id="a3a79f236e814ea5a0b98b20a997b675">
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style numbering-type="None">
+                            <numbering name="" multi-level="false">
+                              <numbering-level type="None" level="0" format="{0}." />
+                            </numbering>
+                          </style>
+                          <p>
+                            <t>Randomiza </t>
+                          </p>
+                          <p>
+                            <t>as </t>
+                          </p>
+                          <p>
+                            <t>posições </t>
+                          </p>
+                          <p>
+                            <t>da </t>
+                          </p>
+                          <p>
+                            <t>peças </t>
+                          </p>
+                          <p>
+                            <t>no </t>
+                          </p>
+                          <p>
+                            <t>grid
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </doc>
+                </documentations>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69c136a657fc4898b97516b31f0de347513" cid="OP022" name="Reset" creation-date="10/20/2023 12:13:36" type="" type-id="" visibility="private" />
+              <operation id="o751c2eb482d540d083290a31af157ec353" cid="OP023" name="ClearGrid" creation-date="10/20/2023 12:13:41" type="" type-id="" visibility="private" />
+              <operation id="o223917122b16406488bde69cc21c891a123" cid="OP025" name="UpdateHUD" creation-date="10/20/2023 14:03:33" type="" type-id="" visibility="private" />
+              <operation id="o94e1aa6c7bca44d2b223643025c9f311819" cid="OP024" name="_On_ResetButton_Pressed" creation-date="10/20/2023 12:17:11" type="" type-id="" visibility="private" />
+              <operation id="oef665426ac074bfda07b783d6ae8298f746" cid="OP026" name="_On_CloseButton_Pressed" creation-date="10/20/2023 14:04:10" type="" type-id="" visibility="private" />
+              <operation id="o6f82766bf1634628a516c5191b2d91ac649" cid="OP034" name="FindNullPosition" creation-date="10/22/2023 21:21:32" type="Vector2" type-id="Vector2" visibility="private" />
+              <operation id="o851a5d6e118b4849913597b0fb7caf88320" cid="OP035" name="GetGridAdjacentPositions" creation-date="10/22/2023 21:21:49" type="Array[Vector2]" type-id="Array[Vector2]" visibility="private">
+                <parameters>
+                  <parameter id="p81269609f1fd462181dfa44ebf58ca04" name="null_pos" type="Vector2" type-id="Vector2" creation-date="10/22/2023 21:22:20" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5f9d3baddf854d83b2531a6adc2a4382657" cid="OP036" name="Swipe" creation-date="10/22/2023 21:23:06" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pfce087cf852c4a9fa4f2c83024f7e6af" name="piece_pos" type="Vector2" type-id="Vector2" creation-date="10/22/2023 21:23:28" />
+                  <parameter id="p7fc05f5b16dd4f56be45018ac00c1ea9" name="null_pos" type="Vector2" type-id="Vector2" creation-date="10/22/2023 21:23:28" />
+                </parameters>
+              </operation>
+              <operation id="o08dda37cd8224f33b308a72c88deb5b8347" cid="OP037" name="PopulateGrid" creation-date="10/23/2023 10:24:37" type="" type-id="" visibility="private" />
+              <operation id="o4d1bbf2726534a8783a9831abf5d546d384" cid="OP038" name="GridToPixel" creation-date="10/23/2023 10:24:53" type="Vector2" type-id="Vector2" visibility="private">
+                <parameters>
+                  <parameter id="p5e18b2606dff45de944029df27942848" name="x" type="int" type-id="GD.int" creation-date="10/23/2023 10:25:03" />
+                  <parameter id="p556909a8588d434bb0c871b6bd096a3b" name="y" type="int" type-id="GD.int" creation-date="10/23/2023 10:25:03" />
+                </parameters>
+              </operation>
+              <operation id="o1675e776407a4c619ec6d24e895c8eef885" cid="OP041" name="PixelToGrid" creation-date="10/23/2023 15:31:17" type="Vector2" type-id="Vector2" visibility="private">
+                <parameters>
+                  <parameter id="pbc29d9e4234e4c8c9fb919193fd69149" name="pixel_pos" type="Vector2" type-id="Vector2" creation-date="10/23/2023 15:31:47" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="e6241365cd2b409b8b039394de2eb39c" cid="C013" type="class" name="Piece" creation-date="10/20/2023 14:27:18" visibility="undefined">
+            <operations>
+              <operation id="o02ed1656c3e34902b2278deab5cc489e959" cid="OP029" name="Move" creation-date="10/20/2023 17:17:28" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="cfe7e4d4ac7e4f6a953e5ddadb17fa45" name="Default" visible="true" enabled="true" locked="false">
+          <item id="53efd17f833549938700084b0fa00be1" iid="0f402e518516420aaf5fa26758deb2cd" show-empty-compartments="true" creation-date="10/20/2023 10:42:46" order-index="0" presentation-style="classifier" type="entity">
+            <layout ax="197.77539" ay="201.63138" awidth="228" aheight="160" x="195" y="201" width="228" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="20d29950e98d4d73a5fe404007ad5b98" iid="07efa3db67b04f2b94f951ed213a5177" show-fields="true" creation-date="10/20/2023 10:45:13" order-index="1" presentation-style="classifier" type="entity">
+            <layout ax="528.23126" ay="202.59041" awidth="372" aheight="160" x="528.23126" y="201" width="372" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="bdc7b5eadfc04ccca5a0b40f9ce56ba2" iid="43d94d2772764077be82ef9b195c1121" show-empty-compartments="false" creation-date="10/20/2023 10:51:54" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="426" y1="282" x2="528" y2="283" start-border-pos="0.37601518630981445" end-border-pos="0.8750829219818115" name-position="0,20">
+              <points>
+                <point x="426" y="282" />
+                <point x="528" y="283" />
+              </points>
+            </layout>
+            <relation from="53efd17f833549938700084b0fa00be1" from-iid="0f402e518516420aaf5fa26758deb2cd" to="20d29950e98d4d73a5fe404007ad5b98" to-iid="07efa3db67b04f2b94f951ed213a5177" show-texts="false" />
+          </item>
+          <item id="2be630c7765844e5bf43b7a3823aea48" iid="1886fba86058426b8c199729d9da52b7" show-fields="true" creation-date="10/20/2023 10:53:28" order-index="3" presentation-style="classifier" type="entity">
+            <layout ax="1015.68713" ay="15.590393" awidth="409" aheight="553" x="1015.68713" y="15.590393" width="409" height="214" />
+            <classifier />
+            <class />
+          </item>
+          <item id="23f8299c374946138840fff4837e8fd5" iid="acd0b0d0fd9444938c986dd791d7eeac" creation-date="10/20/2023 10:57:12" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="1016" y1="288" x2="900" y2="286" start-border-pos="0.8766892555609318" end-border-pos="0.3808091878890991" end-local-pos="141" name-position="0,20">
+              <points>
+                <point x="1016" y="288" />
+                <point x="900" y="286" />
+              </points>
+            </layout>
+            <relation from="2be630c7765844e5bf43b7a3823aea48" from-iid="1886fba86058426b8c199729d9da52b7" to="20d29950e98d4d73a5fe404007ad5b98" to-iid="07efa3db67b04f2b94f951ed213a5177" to-field="o07df46074d964c66b277aba642f83d30247" show-texts="false" />
+          </item>
+          <item id="e6241365cd2b409b8b039394de2eb39c" iid="330aaee6fa4e40d4aee47619ba9e4c0c" show-fields="true" creation-date="10/20/2023 14:27:18" order-index="5" presentation-style="classifier" type="entity">
+            <layout ax="1534.1431" ay="203.96515" awidth="295" aheight="160" x="1534.1431" y="203.96515" width="295" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="827006a6d6d74efb97dfd6768089debd" iid="de08cde08a884b8d83842750bae83b60" creation-date="10/20/2023 14:28:10" order-index="6" type="relation">
+            <layout start-role-position="25,19" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="1534" y1="287" x2="1425" y2="288" start-border-pos="0.8709412097930909" end-border-pos="0.3733621773193801" name-position="0,20">
+              <points>
+                <point x="1534" y="287" />
+                <point x="1425" y="288" />
+              </points>
+            </layout>
+            <relation from="e6241365cd2b409b8b039394de2eb39c" from-iid="330aaee6fa4e40d4aee47619ba9e4c0c" to="2be630c7765844e5bf43b7a3823aea48" to-iid="1886fba86058426b8c199729d9da52b7" show-texts="false" />
+          </item>
+          <item id="4dd6a0ed83bf4307addad40de9c06936" iid="aef5f9e3911d4bb181c2e0c513c7e093" show-fields="true" creation-date="10/23/2023 15:19:35" order-index="7" presentation-style="classifier" type="entity">
+            <layout ax="1063.6871" ay="715" awidth="313" aheight="160" x="1063.6871" y="715" width="313" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="0754a7956b114c66952aacf597a09c01" iid="c57c8a728df343cbade6532d67fe1dd6" creation-date="10/23/2023 15:20:45" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="1220" y1="715" x2="1220" y2="569" start-border-pos="0.12485053211736222" end-border-pos="0.6251143849566396" name-position="0,20">
+              <points>
+                <point x="1220" y="715" />
+                <point x="1220" y="569" />
+              </points>
+            </layout>
+            <relation from="4dd6a0ed83bf4307addad40de9c06936" from-iid="aef5f9e3911d4bb181c2e0c513c7e093" to="2be630c7765844e5bf43b7a3823aea48" to-iid="1886fba86058426b8c199729d9da52b7" show-texts="false" />
+          </item>
+          <item id="e220076da00647888ef32f07435a392d" iid="c1363f510de54573bbbf3007e217224a" creation-date="10/23/2023 15:21:07" order-index="9" type="entity">
+            <layout ax="833.18713" ay="745" awidth="140" aheight="100" x="833.18713" y="745" width="140" height="100" />
+          </item>
+          <item id="di84c023e588a64033a71670537bbd53651132" iid="36d9fbe625bd4023939592138e4dc0e3" creation-date="10/23/2023 15:21:07" order-index="10" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="973" y1="795" x2="1064" y2="795" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
+              <points>
+                <point x="973" y="795" />
+                <point x="1064" y="795" />
+              </points>
+            </layout>
+            <relation from="e220076da00647888ef32f07435a392d" from-iid="c1363f510de54573bbbf3007e217224a" to="4dd6a0ed83bf4307addad40de9c06936" to-iid="aef5f9e3911d4bb181c2e0c513c7e093" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

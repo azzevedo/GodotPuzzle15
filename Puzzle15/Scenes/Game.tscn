@@ -1,0 +1,186 @@
+[gd_scene load_steps=22 format=3 uid="uid://cwm1875lwjoio"]
+
+[ext_resource type="FontFile" uid="uid://diip8i0gu0qq6" path="res://Assets/Fonts/Azonix.otf" id="1_gnsr2"]
+[ext_resource type="Script" path="res://Scripts/Game.gd" id="1_pp6w0"]
+[ext_resource type="Texture2D" uid="uid://b0rnbqdlhm83n" path="res://Assets/Images/pause_button.png" id="2_vfell"]
+[ext_resource type="Texture2D" uid="uid://bn1kbg6qeecb7" path="res://Assets/Images/reset_button.png" id="3_ivcgw"]
+[ext_resource type="Script" path="res://Scripts/Grid.gd" id="3_tt78b"]
+[ext_resource type="Texture2D" uid="uid://bqb07vqxtruci" path="res://Assets/Images/exit_button.png" id="6_pxqv7"]
+
+[sub_resource type="Gradient" id="Gradient_7bway"]
+colors = PackedColorArray(0.0274277, 0.2171, 0.274904, 1, 0, 0.764706, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_exhe6"]
+gradient = SubResource("Gradient_7bway")
+fill = 1
+fill_from = Vector2(0.295, -0.65)
+fill_to = Vector2(1, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fia41"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_05ox6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4hp2j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dqt8y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rqwcc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_po1lm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2d4pm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qa0ep"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5c0xi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_txro4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8gco1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_njm1q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_k0kt2"]
+
+[node name="Game" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_exhe6")
+flip_v = true
+script = ExtResource("1_pp6w0")
+metadata/_edit_vertical_guides_ = []
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -310.0
+offset_top = 285.0
+offset_right = 310.0
+offset_bottom = 100.0
+grow_horizontal = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="TimeContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="HBoxContainer/TimeContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_gnsr2")
+theme_override_font_sizes/font_size = 30
+text = "Time:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TimeLabel" type="Label" parent="HBoxContainer/TimeContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_gnsr2")
+theme_override_font_sizes/font_size = 60
+text = "13"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MovesContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="HBoxContainer/MovesContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_gnsr2")
+theme_override_font_sizes/font_size = 30
+text = "Moves:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MovesLabel" type="Label" parent="HBoxContainer/MovesContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_gnsr2")
+theme_override_font_sizes/font_size = 60
+text = "13"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Grid" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -300.0
+offset_right = 300.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+script = ExtResource("3_tt78b")
+
+[node name="BottomContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -214.0
+offset_top = -168.0
+offset_right = 214.0
+offset_bottom = -200.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme_override_constants/separation = 140
+alignment = 1
+
+[node name="PlayPauseButton" type="Button" parent="BottomContainer"]
+process_mode = 3
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fia41")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_05ox6")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_4hp2j")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dqt8y")
+icon = ExtResource("2_vfell")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ResetButton" type="Button" parent="BottomContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_rqwcc")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_po1lm")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_2d4pm")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_qa0ep")
+icon = ExtResource("3_ivcgw")
+icon_alignment = 1
+
+[node name="CloseButton" type="Button" parent="."]
+process_mode = 3
+layout_mode = 1
+anchors_preset = -1
+offset_left = 60.0
+offset_top = 60.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5c0xi")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_txro4")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_8gco1")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_njm1q")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_k0kt2")
+icon = ExtResource("6_pxqv7")
+
+[connection signal="pressed" from="BottomContainer/PlayPauseButton" to="." method="_On_PlayPauseButton_Pressed"]
+[connection signal="pressed" from="BottomContainer/ResetButton" to="." method="_On_ResetButton_Pressed"]
+[connection signal="pressed" from="CloseButton" to="." method="_On_CloseButton_Pressed"]
