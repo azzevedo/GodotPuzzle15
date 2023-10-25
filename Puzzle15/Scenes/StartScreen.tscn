@@ -103,6 +103,7 @@ vertical_alignment = 1
 
 [node name="TextureButton3x3" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("3_b50k6")
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
@@ -122,6 +123,7 @@ vertical_alignment = 1
 
 [node name="TextureButton4x4" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer2"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("4_avf8t")
 
 [node name="VBoxContainer3" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
@@ -141,6 +143,7 @@ vertical_alignment = 1
 
 [node name="TextureButton5x5" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer3"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("5_p8onh")
 
 [node name="VBoxContainer4" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
@@ -160,6 +163,7 @@ vertical_alignment = 1
 
 [node name="TextureButton6x6" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer4"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("6_cytcp")
 
 [node name="Label" type="Label" parent="."]

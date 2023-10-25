@@ -39,11 +39,12 @@ func InstantiatePiece(piece_size: Vector2, number: int) -> Piece:
 
 
 func PlayAgain() -> void:
-	# Jogar com o mesmo modo anterior
+	''' Reiniciar o jogo com o mesmo modo escolhido
+	anteriormente '''
 	# EndGame.gd é quem chama este método
 	game._On_ResetButton_Pressed()
 
 func ExitToLobby() -> void:
+	''' Vai para a StartScreen '''
 	# Em EndGame.gd, o jogador opta por escolher outro modo de jogo
-	# Retorna a StartScreen
 	game.queue_free()

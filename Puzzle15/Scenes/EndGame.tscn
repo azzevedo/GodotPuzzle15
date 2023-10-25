@@ -34,12 +34,14 @@ shadow_size = 20
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kgnau"]
 
 [node name="EndGame" type="ColorRect"]
+process_mode = 2
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.0470588, 0.2, 0.282353, 0.509804)
+mouse_filter = 2
+color = Color(0, 0, 0, 0.709804)
 script = ExtResource("1_ks8s6")
 
 [node name="Panel" type="Panel" parent="."]
@@ -55,6 +57,7 @@ offset_right = 300.0
 offset_bottom = 300.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_bhj0i")
 
 [node name="PlayAgainButton" type="Button" parent="."]
@@ -107,13 +110,13 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="CloseButton" type="Button" parent="."]
-process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 offset_left = 60.0
 offset_top = 60.0
 offset_right = 142.0
 offset_bottom = 135.0
+mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxEmpty_hjacj")
 theme_override_styles/hover = SubResource("StyleBoxEmpty_bbnwy")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_3ph0i")

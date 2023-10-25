@@ -331,6 +331,8 @@ func ClearGrid() -> void:
 
 ''' Métodos dos botões [Nós filhos] '''
 func _On_ResetButton_Pressed() -> void:
+	""" Tira de pause [se estiver pausado]
+	e reseta o jogo no modo atual """
 	# Assegurar que não haja pause
 	if (get_tree().paused):
 		_On_PlayPauseButton_Pressed()
@@ -338,6 +340,7 @@ func _On_ResetButton_Pressed() -> void:
 	Reset()
 
 func _On_CloseButton_Pressed() -> void:
+	""" Fecha o jogo atual e volta à StartScreen """
 	# Tirar do pause, se estiver
 	Play()
 	# Fechar a cena do jogo [Game.tscn]
@@ -345,6 +348,10 @@ func _On_CloseButton_Pressed() -> void:
 
 
 func _On_PlayPauseButton_Pressed() -> void:
+	""" Pausa ou dá play no jogo ao clicar
+	Se o jogo estiver em pause, tira de pause
+	Se o jogo estiver em play, fica em pause
+	E muda o icon de acordo com o estado """
 	var paused: bool = get_tree().paused
 
 	if (paused):
@@ -356,6 +363,7 @@ func _On_PlayPauseButton_Pressed() -> void:
 
 
 func ChangePlayPauseIcon(paused: bool) -> void:
+	""" Muda a imagem do botão 'PlayPauseButton' """
 	var image: Resource
 
 	if (paused):
