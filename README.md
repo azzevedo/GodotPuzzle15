@@ -9,3 +9,5 @@ Arquivo protótipo criado com [Lunacy](https://icons8.com.br/lunacy)
 - [ ] Mudar cor da peça quando está na posição correta
 - [ ] Adicionar animações ao mover
 - [ ] Centralizar os números nos modos 4x4, 5x5 e 6x6
+# New Features
+- [ ] Adicionar opção de jogar com imagens
