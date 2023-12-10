@@ -254,8 +254,27 @@ func GameOver() -> void:
 	var end_game: Node = end_game_packed.instantiate()
 	var label: Label = end_game.get_node("Label")
 	label.text = "You win in %.0f seconds with %d moves" %[elapsed_time, moves]
+	GameManager.game_over = true
+	DisableGameButtons()
 	add_child(end_game)
 
+func DisableGameButtons() -> void:
+	''' Desativa os botões Pause, Reset, Close 
+	quando a tela de GameOver for exibida '''
+#	var c = get_node("CloseButton")
+#	c.process_mode = Node.PROCESS_MODE_DISABLED
+	var p = get_node("BottomContainer/PlayPauseButton")
+	p.process_mode = Node.PROCESS_MODE_PAUSABLE
+	var r = get_node("BottomContainer/ResetButton")
+	r.process_mode = Node.PROCESS_MODE_PAUSABLE
+
+func ReEnableGameButtons() -> void:
+	''' Reativa os botões ao clicar em PlayAgain
+	na tela de EndGame '''
+	var p = get_node("BottomContainer/PlayPauseButton")
+	p.process_mode = Node.PROCESS_MODE_ALWAYS
+	var r = get_node("BottomContainer/ResetButton")
+	r.process_mode = Node.PROCESS_MODE_ALWAYS
 
 func DidMoveWin() -> bool:
 	''' Checa se o último movimento feito

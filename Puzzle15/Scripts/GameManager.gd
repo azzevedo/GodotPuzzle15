@@ -7,6 +7,7 @@ var game: Node
 # Referência à cena Piece (serão instanciadas várias)
 @onready var pre_piece: PackedScene = preload("res://Scenes/Piece.tscn")
 
+var game_over: bool = false
 
 func StartGame(mode: int) -> void:
 	''' Delega a função de iniciar o jogo ao Game.tscn
@@ -42,6 +43,7 @@ func PlayAgain() -> void:
 	''' Reiniciar o jogo com o mesmo modo escolhido
 	anteriormente '''
 	# EndGame.gd é quem chama este método
+	game.ReEnableGameButtons()
 	game._On_ResetButton_Pressed()
 
 func ExitToLobby() -> void:
