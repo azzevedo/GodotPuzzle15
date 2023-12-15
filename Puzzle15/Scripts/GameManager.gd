@@ -22,6 +22,8 @@ func StartGame(mode: int) -> void:
 
 # O GameManager é quem fica responsável por instanciar uma Piece
 # Método chamado em Game.gd
+#TODO - apagar método [obsoleto] - Refatorado para Game.gd (instancia)
+# e Piece (configura o Label com a numeração)
 func InstantiatePiece(piece_size: Vector2, number: int) -> Piece:
 	''' Instancia uma Piece e atribui um tamanho
 	à Piece (Control) e um número ao seu Node Label '''

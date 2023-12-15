@@ -1,6 +1,9 @@
 extends TextureRect
 class_name Game
 
+#TODO
+@onready var pre_piece: PackedScene = preload("res://Scenes/Piece.tscn")
+#
 
 @onready var time_label: Label = get_node("HBoxContainer/TimeContainer/TimeLabel")
 @onready var moves_label: Label = get_node("HBoxContainer/MovesContainer/MovesLabel")
@@ -64,7 +67,10 @@ func InitGrid(_size: int) -> void:
 			# A largura e altura e cada Piece é definido ao dividir
 			# o tamanho do Grid [Control] pelo número de colunas
 			var piece_size: Vector2 = grid.size / _size
-			var piece: Piece = GameManager.InstantiatePiece(piece_size, number)
+			#var piece: Piece = GameManager.InstantiatePiece(piece_size, number)
+			var piece: Piece = pre_piece.instantiate()
+			piece.piece_size = piece_size
+			piece.number_str = str(number)
 			grid_data[x][y] = piece
 
 			number += 1
@@ -237,7 +243,7 @@ func GridTouch(input_pos: Vector2) -> void:
 	Swipe(grid_pos, null_pos)
 	# Após feito o Swipe no grid_data
 	# 'null_pos' [em pixel] é para onde deve-se mover a peça no grid (Control)
-	piece.Move(GridToPixel(null_pos.x, null_pos.y))
+	piece.Move(GridToPixel(floori(null_pos.x), floori(null_pos.y)))
 	
 	# Contabilizar 1 movimento
 	moves += 1

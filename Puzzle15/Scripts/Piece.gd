@@ -22,5 +22,31 @@ func _ready():
 	number_label = get_node("Label")
 	number_label.text = str(number)
 """
+@export var number_label: Label
+
+var number_str: String:
+	get:
+		return number_label.text
+	set(value):
+		number_label.text = value
+		# Mesmo tamanho de Piece aplicado ao tamanho da fonte do label
+		number_label.set("theme_override_font_sizes/font_size", piece_size.x - 50)
+
+var piece_size: Vector2:
+	get:
+		# size é uma propriedade do próprio Button
+		return size
+	set(value):
+		# Diminuir um pouco o tamanho para servir como margem externa
+		size.x = value.x - 10
+		size.y = value.y - 10
+
+#func _init():
+#	# Godot não tem Awake
+#	call_deferred("InitProperties")
+	
+func InitProperties():
+	number_label = get_node("NumberLabel")
+
 func Move(new_position: Vector2) -> void:
 	position = new_position

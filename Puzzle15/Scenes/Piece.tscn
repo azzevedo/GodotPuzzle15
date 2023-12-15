@@ -15,7 +15,7 @@ shadow_offset = Vector2(0, 3)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ordwf"]
 
-[node name="Button" type="Button" groups=["pieces"]]
+[node name="Button" type="Button" node_paths=PackedStringArray("number_label") groups=["pieces"]]
 offset_left = -35.0
 offset_top = -35.0
 offset_right = 35.0
@@ -31,8 +31,9 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_qrord")
 theme_override_styles/hover = SubResource("StyleBoxFlat_qrord")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_ordwf")
 script = ExtResource("2_pomi2")
+number_label = NodePath("NumberLabel")
 
-[node name="Label" type="Label" parent="."]
+[node name="NumberLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
