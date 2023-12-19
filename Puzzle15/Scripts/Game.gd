@@ -284,6 +284,7 @@ func GridTouch(input_pos: Vector2) -> void:
 
 func GameOver() -> void:
 	''' Mostra uma tela de jogo concluído '''
+	await get_tree().create_timer(.3).timeout
 	var end_game_packed: PackedScene = preload("res://Scenes/EndGame.tscn")
 	var end_game: Node = end_game_packed.instantiate()
 	var label: Label = end_game.get_node("Label")

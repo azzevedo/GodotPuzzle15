@@ -48,7 +48,12 @@ var piece_size: Vector2:
 
 
 func Move(new_position: Vector2) -> void:
-	position = new_position
+	var tween: Tween = create_tween()
+	tween.tween_property(
+		self, "position",
+		new_position, 0.2
+	).set_trans(Tween.TRANS_LINEAR).set_ease(Tween.EASE_IN_OUT)
+	# position = new_position
 
 
 func ChangeColor(color: String) -> void:
