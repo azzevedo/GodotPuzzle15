@@ -24,13 +24,18 @@ func _ready():
 """
 @export var number_label: Label
 
-var number_str: String:
+# var piece_colors = { "orange": "#ffbc00", "blue" : "#00a3b0" }
+var piece_colors = { "orange": "#ffbc00", "blue" : "#4effff" }
+# piece.ChangeColor("orange")
+
+var number: int:
 	get:
-		return number_label.text
+		return number
 	set(value):
-		number_label.text = value
+		number_label.text = str(value)
 		# Mesmo tamanho de Piece aplicado ao tamanho da fonte do label
 		number_label.set("theme_override_font_sizes/font_size", piece_size.x - 50)
+		number = value
 
 var piece_size: Vector2:
 	get:
@@ -41,12 +46,16 @@ var piece_size: Vector2:
 		size.x = value.x - 10
 		size.y = value.y - 10
 
-#func _init():
-#	# Godot não tem Awake
-#	call_deferred("InitProperties")
-	
-func InitProperties():
-	number_label = get_node("NumberLabel")
 
 func Move(new_position: Vector2) -> void:
 	position = new_position
+
+
+func ChangeColor(color: String) -> void:
+	var styleBox: StyleBoxFlat = StyleBoxFlat.new()
+	styleBox.bg_color = Color.from_string(piece_colors[color], Color.REBECCA_PURPLE)
+	set("theme_override_styles/normal", styleBox)
+	
+	#var style = get("theme_override_styles/normal")
+	#style.set("bg_color", piece_colors[color])
+

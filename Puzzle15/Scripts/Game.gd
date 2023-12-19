@@ -21,7 +21,7 @@ var game_mode: int
 # Última posição de 'null'
 # Para não ficar voltando a peça a esta posição imediatamente
 # na hora do Shuffle()
-# A última posição do 'null' ao iniciar o 'grid_data', é (2, 2)
+# A última posição do 'null' ao iniciar o 'grid_data' é (2, 2)
 var last_null_position: Vector2 = Vector2(2, 2)
 
 
@@ -47,6 +47,29 @@ func Start(mode: int) -> void:
 	PopulateGrid()
 
 
+func CheckColorPosition() -> void:
+	#return
+	for x in game_mode:
+		for y in game_mode:
+			
+			var piece: Piece = grid_data[x][y]
+			var piece_solution: Piece = game_solution[x][y]
+			
+			if (piece == null && piece_solution == null):
+				# posição (2, 2) com os mesmos valores (null)
+				continue
+			elif (piece == null):
+				# somente o valor [Piece] em grid_data é null
+				continue
+			elif (piece_solution == null):
+				# somente o valor em game_solution é null
+				piece.ChangeColor("orange")
+			elif (piece.number == piece_solution.number):
+				piece.ChangeColor("blue")
+			elif (piece.number != piece_solution.number):
+				piece.ChangeColor("orange")
+
+
 func InitGrid(_size: int) -> void:
 	'''
 	Define o tamanho da matriz do grid
@@ -67,10 +90,11 @@ func InitGrid(_size: int) -> void:
 			# A largura e altura e cada Piece é definido ao dividir
 			# o tamanho do Grid [Control] pelo número de colunas
 			var piece_size: Vector2 = grid.size / _size
+			#TODO apagar - instanciar pelo GameManager não é mais necessário
 			#var piece: Piece = GameManager.InstantiatePiece(piece_size, number)
 			var piece: Piece = pre_piece.instantiate()
 			piece.piece_size = piece_size
-			piece.number_str = str(number)
+			piece.number = number
 			grid_data[x][y] = piece
 
 			number += 1
@@ -191,6 +215,8 @@ func PopulateGrid() -> void:
 				continue
 			grid.add_child(piece)
 			piece.position = GridToPixel(x, y)
+	
+	CheckColorPosition()
 
 
 func GridToPixel(x: int, y: int) -> Vector2:
@@ -244,6 +270,8 @@ func GridTouch(input_pos: Vector2) -> void:
 	# Após feito o Swipe no grid_data
 	# 'null_pos' [em pixel] é para onde deve-se mover a peça no grid (Control)
 	piece.Move(GridToPixel(floori(null_pos.x), floori(null_pos.y)))
+	# print(piece.number)
+	CheckColorPosition()
 	
 	# Contabilizar 1 movimento
 	moves += 1
