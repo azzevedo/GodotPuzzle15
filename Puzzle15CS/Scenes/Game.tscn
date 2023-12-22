@@ -1,0 +1,169 @@
+[gd_scene load_steps=17 format=3 uid="uid://dpww4idsxq4yp"]
+
+[ext_resource type="Texture2D" uid="uid://bjjctv1rheyhr" path="res://Images/exit_button.png" id="1_q24gy"]
+[ext_resource type="Script" path="res://Scripts/Game.cs" id="1_xfkol"]
+[ext_resource type="PackedScene" uid="uid://dgn636lb3um1i" path="res://Scenes/Piece.tscn" id="2_fsbos"]
+[ext_resource type="FontFile" uid="uid://c67whtvut3rk2" path="res://Fonts/Azonix.otf" id="3_7r5qc"]
+[ext_resource type="Texture2D" uid="uid://dc00an6gvkpph" path="res://Images/pause_button.png" id="4_4oun3"]
+[ext_resource type="Texture2D" uid="uid://c4wsfjayikqr1" path="res://Images/reset_button.png" id="5_s74eo"]
+[ext_resource type="Script" path="res://Scripts/Grid.cs" id="5_sj7om"]
+
+[sub_resource type="Gradient" id="Gradient_3ok6n"]
+interpolation_mode = 2
+interpolation_color_space = 1
+offsets = PackedFloat32Array(0, 0.556962, 1)
+colors = PackedColorArray(0.271001, 0.000922618, 0.531348, 1, 0.357751, 0.0015501, 0.754055, 1, 0.270588, 0, 0.533333, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_fuu74"]
+gradient = SubResource("Gradient_3ok6n")
+fill_from = Vector2(0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_gkj15"]
+font = ExtResource("3_7r5qc")
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_chfn3"]
+font = ExtResource("3_7r5qc")
+font_size = 80
+font_color = Color(0.788235, 0.788235, 0.788235, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yhfp1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vsx2c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cyecb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nd7ly"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_r5gol"]
+
+[node name="Game" type="TextureRect" node_paths=PackedStringArray("elapsedTimeLabel", "movesLabel", "grid")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_fuu74")
+script = ExtResource("1_xfkol")
+elapsedTimeLabel = NodePath("LabelsContainer/TimeConainer/ElapsedTimeLabel")
+movesLabel = NodePath("LabelsContainer/MovesContainer/MovesLabel")
+grid = NodePath("Grid")
+prePiece = ExtResource("2_fsbos")
+
+[node name="CloseButton" type="TextureButton" parent="."]
+process_mode = 3
+layout_mode = 0
+offset_left = 78.0
+offset_top = 89.0
+offset_right = 160.0
+offset_bottom = 164.0
+texture_normal = ExtResource("1_q24gy")
+
+[node name="LabelsContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -186.0
+offset_top = 285.0
+offset_right = 186.0
+offset_bottom = 366.0
+grow_horizontal = 2
+theme_override_constants/separation = 200
+alignment = 1
+
+[node name="TimeConainer" type="VBoxContainer" parent="LabelsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="LabelsContainer/TimeConainer"]
+layout_mode = 2
+text = "time"
+label_settings = SubResource("LabelSettings_gkj15")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="ElapsedTimeLabel" type="Label" parent="LabelsContainer/TimeConainer"]
+layout_mode = 2
+text = "00
+"
+label_settings = SubResource("LabelSettings_chfn3")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MovesContainer" type="VBoxContainer" parent="LabelsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="LabelsContainer/MovesContainer"]
+layout_mode = 2
+text = "moves"
+label_settings = SubResource("LabelSettings_gkj15")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MovesLabel" type="Label" parent="LabelsContainer/MovesContainer"]
+layout_mode = 2
+text = "00
+"
+label_settings = SubResource("LabelSettings_chfn3")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Grid" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -300.0
+offset_right = 300.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+script = ExtResource("5_sj7om")
+
+[node name="BottomContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 150.0
+offset_top = -135.0
+offset_right = -150.0
+offset_bottom = -210.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="PlayPauseButton" type="Button" parent="BottomContainer"]
+process_mode = 3
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_yhfp1")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_vsx2c")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_cyecb")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_nd7ly")
+icon = ExtResource("4_4oun3")
+expand_icon = true
+
+[node name="ResetButton" type="Button" parent="BottomContainer"]
+process_mode = 3
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_r5gol")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_r5gol")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_r5gol")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_r5gol")
+icon = ExtResource("5_s74eo")
+icon_alignment = 1
+
+[connection signal="pressed" from="CloseButton" to="." method="OnCloseButtonPressed"]
+[connection signal="pressed" from="BottomContainer/PlayPauseButton" to="." method="OnPlayPauseButtonPressed"]
+[connection signal="pressed" from="BottomContainer/ResetButton" to="." method="OnResetButtonPressed"]

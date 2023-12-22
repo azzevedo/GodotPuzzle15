@@ -1,0 +1,183 @@
+[gd_scene load_steps=13 format=3 uid="uid://dxf7wjyhfmpl0"]
+
+[ext_resource type="Script" path="res://Scripts/StartScreen.cs" id="1_b1f3g"]
+[ext_resource type="FontFile" uid="uid://c5w0e1s3q5f71" path="res://Fonts/ThuruBrush.otf" id="2_gsmd6"]
+[ext_resource type="Texture2D" uid="uid://ceavo8716s4f6" path="res://Images/3x3.png" id="3_aeldg"]
+[ext_resource type="Texture2D" uid="uid://8tueexewj6b8" path="res://icon.svg" id="4_4hyq5"]
+[ext_resource type="Texture2D" uid="uid://cxjoa146a4hy" path="res://Images/4x4.png" id="4_mtmmi"]
+[ext_resource type="Texture2D" uid="uid://jvalbplwca2u" path="res://Images/5x5.png" id="5_uyd1k"]
+[ext_resource type="Texture2D" uid="uid://qeef5dbvkqe1" path="res://Images/6x6.png" id="6_v26l7"]
+
+[sub_resource type="Gradient" id="Gradient_m76dk"]
+interpolation_mode = 2
+colors = PackedColorArray(0.169245, 0.169245, 0.169245, 0.933333, 0.226707, 0.226707, 0.226707, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_b5ikx"]
+gradient = SubResource("Gradient_m76dk")
+fill_from = Vector2(1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_28s43"]
+font = ExtResource("2_gsmd6")
+font_size = 120
+outline_size = 13
+outline_color = Color(0.0431373, 0.0431373, 0.0431373, 1)
+shadow_size = 16
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(0, 8)
+
+[sub_resource type="LabelSettings" id="LabelSettings_5nopj"]
+font_size = 34
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_54nth"]
+font = ExtResource("2_gsmd6")
+font_size = 32
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b1f3g")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_b5ikx")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.077
+anchor_right = 1.0
+anchor_bottom = 0.171
+offset_top = -0.200012
+offset_bottom = -0.600006
+grow_horizontal = 2
+text = "puzzle 15"
+label_settings = SubResource("LabelSettings_28s43")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 400
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 450
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/CenterContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 80
+theme_override_constants/v_separation = 80
+columns = 2
+
+[node name="VBoxContainer3x3" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer3x3"]
+layout_mode = 2
+text = "3 x 3"
+label_settings = SubResource("LabelSettings_5nopj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton3x3" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer3x3"]
+layout_mode = 2
+texture_normal = ExtResource("3_aeldg")
+
+[node name="VBoxContainer4x4" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer4x4"]
+layout_mode = 2
+text = "4 x 4"
+label_settings = SubResource("LabelSettings_5nopj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton4x4" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer4x4"]
+layout_mode = 2
+texture_normal = ExtResource("4_mtmmi")
+
+[node name="VBoxContainer5x5" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer5x5"]
+layout_mode = 2
+text = "5 x 5"
+label_settings = SubResource("LabelSettings_5nopj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton5x5" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer5x5"]
+layout_mode = 2
+texture_normal = ExtResource("5_uyd1k")
+
+[node name="VBoxContainer6x6" type="VBoxContainer" parent="MarginContainer/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer6x6"]
+layout_mode = 2
+text = "6 x 6"
+label_settings = SubResource("LabelSettings_5nopj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton6x6" type="TextureButton" parent="MarginContainer/CenterContainer/GridContainer/VBoxContainer6x6"]
+layout_mode = 2
+texture_normal = ExtResource("6_v26l7")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.293
+anchor_top = 0.89
+anchor_right = 0.707
+anchor_bottom = 0.909
+offset_left = 66.82
+offset_top = 6.99988
+offset_right = -66.82
+offset_bottom = -0.400024
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 30
+
+[node name="BottomLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "made with godot"
+label_settings = SubResource("LabelSettings_54nth")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("4_4hyq5")
+expand_mode = 2
+
+[connection signal="pressed" from="MarginContainer/CenterContainer/GridContainer/VBoxContainer3x3/TextureButton3x3" to="." method="OnTextureButto3x3Pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/GridContainer/VBoxContainer4x4/TextureButton4x4" to="." method="OnTextureButton4x4Pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/GridContainer/VBoxContainer5x5/TextureButton5x5" to="." method="OnTextureButton5x5Pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/GridContainer/VBoxContainer6x6/TextureButton6x6" to="." method="OnTextureButton6x6Pressed"]

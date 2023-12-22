@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgn636lb3um1i"]
+
+[ext_resource type="Script" path="res://Scripts/Piece.cs" id="1_gnh6t"]
+[ext_resource type="FontFile" uid="uid://c67whtvut3rk2" path="res://Fonts/Azonix.otf" id="2_7qe7p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ecgit"]
+bg_color = Color(1, 0.737255, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+shadow_offset = Vector2(0, 3)
+
+[node name="Piece" type="Button" node_paths=PackedStringArray("numberLabel") groups=["Pieces"]]
+offset_left = -35.0
+offset_top = -35.0
+offset_right = 35.0
+offset_bottom = 35.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_ecgit")
+script = ExtResource("1_gnh6t")
+numberLabel = NodePath("NumberLabel")
+
+[node name="NumberLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 5.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_7qe7p")
+theme_override_font_sizes/font_size = 51
+text = "35"
+horizontal_alignment = 1
+vertical_alignment = 1
