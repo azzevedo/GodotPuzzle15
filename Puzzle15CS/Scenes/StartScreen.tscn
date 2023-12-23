@@ -1,20 +1,13 @@
-[gd_scene load_steps=13 format=3 uid="uid://dxf7wjyhfmpl0"]
+[gd_scene load_steps=12 format=3 uid="uid://dxf7wjyhfmpl0"]
 
 [ext_resource type="Script" path="res://Scripts/StartScreen.cs" id="1_b1f3g"]
+[ext_resource type="Texture2D" uid="uid://cu1yeb2rtx0ex" path="res://Resources/GameTextureRect.tres" id="2_colkh"]
 [ext_resource type="FontFile" uid="uid://c5w0e1s3q5f71" path="res://Fonts/ThuruBrush.otf" id="2_gsmd6"]
 [ext_resource type="Texture2D" uid="uid://ceavo8716s4f6" path="res://Images/3x3.png" id="3_aeldg"]
 [ext_resource type="Texture2D" uid="uid://8tueexewj6b8" path="res://icon.svg" id="4_4hyq5"]
 [ext_resource type="Texture2D" uid="uid://cxjoa146a4hy" path="res://Images/4x4.png" id="4_mtmmi"]
 [ext_resource type="Texture2D" uid="uid://jvalbplwca2u" path="res://Images/5x5.png" id="5_uyd1k"]
 [ext_resource type="Texture2D" uid="uid://qeef5dbvkqe1" path="res://Images/6x6.png" id="6_v26l7"]
-
-[sub_resource type="Gradient" id="Gradient_m76dk"]
-interpolation_mode = 2
-colors = PackedColorArray(0.169245, 0.169245, 0.169245, 0.933333, 0.226707, 0.226707, 0.226707, 0)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_b5ikx"]
-gradient = SubResource("Gradient_m76dk")
-fill_from = Vector2(1, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_28s43"]
 font = ExtResource("2_gsmd6")
@@ -50,7 +43,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("GradientTexture2D_b5ikx")
+texture = ExtResource("2_colkh")
 
 [node name="Title" type="Label" parent="."]
 layout_mode = 1

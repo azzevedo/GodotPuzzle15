@@ -1,5 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://dpww4idsxq4yp"]
+[gd_scene load_steps=16 format=3 uid="uid://dpww4idsxq4yp"]
 
+[ext_resource type="Texture2D" uid="uid://cu1yeb2rtx0ex" path="res://Resources/GameTextureRect.tres" id="1_jaonc"]
 [ext_resource type="Texture2D" uid="uid://bjjctv1rheyhr" path="res://Images/exit_button.png" id="1_q24gy"]
 [ext_resource type="Script" path="res://Scripts/Game.cs" id="1_xfkol"]
 [ext_resource type="PackedScene" uid="uid://dgn636lb3um1i" path="res://Scenes/Piece.tscn" id="2_fsbos"]
@@ -7,16 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://dc00an6gvkpph" path="res://Images/pause_button.png" id="4_4oun3"]
 [ext_resource type="Texture2D" uid="uid://c4wsfjayikqr1" path="res://Images/reset_button.png" id="5_s74eo"]
 [ext_resource type="Script" path="res://Scripts/Grid.cs" id="5_sj7om"]
-
-[sub_resource type="Gradient" id="Gradient_3ok6n"]
-interpolation_mode = 2
-interpolation_color_space = 1
-offsets = PackedFloat32Array(0, 0.556962, 1)
-colors = PackedColorArray(0.271001, 0.000922618, 0.531348, 1, 0.357751, 0.0015501, 0.754055, 1, 0.270588, 0, 0.533333, 1)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_fuu74"]
-gradient = SubResource("Gradient_3ok6n")
-fill_from = Vector2(0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_gkj15"]
 font = ExtResource("3_7r5qc")
@@ -43,7 +34,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("GradientTexture2D_fuu74")
+texture = ExtResource("1_jaonc")
 script = ExtResource("1_xfkol")
 elapsedTimeLabel = NodePath("LabelsContainer/TimeConainer/ElapsedTimeLabel")
 movesLabel = NodePath("LabelsContainer/MovesContainer/MovesLabel")
