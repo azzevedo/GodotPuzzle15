@@ -5,6 +5,17 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Puzzle;
+
+/*
+Classe Game [partial] com métodos não tão
+relacionados com a mecânica do jogo.
+E sim com a parte visual [View]
+*/
+
+/// <summary>
+/// Classe responsável pela lógica da cena
+/// onde o jogo acontece
+/// </summary>
 public partial class Game : TextureRect
 {
 #region Variaveis
@@ -16,15 +27,7 @@ public partial class Game : TextureRect
 	List<int> gameSolution;
 
 	double elapsedTime;
-	int moves, gameMode; // 3x3, 4x4, 5x5, 6x6
-
-	/*
-	Última posição de 'null'
-	Para não ficar voltando a peça a esta posição imediatamente
-	na hora do Shuffle()
-	A última posição do 'null' ao iniciar o 'gridData' é (2, 2)
-	*/
-	Vector2I lastNullPosition = new (2, 2);
+	int moves, gameMode; // 3x3, 4x4, 5x5, 6x6	
 
 #endregion
 
@@ -74,9 +77,11 @@ public partial class Game : TextureRect
 		// Limpar/Inicializar a lista 'gameSolution'
 		gameSolution = new();
 		// Limpar o 'grid'
-		/* CallGroup não funciona no C# */
+		/*
+		CallGroup não funciona no C# 
 		//GetTree().CallGroup("Pieces", "QueueFree");
 		//GetTree().CallGroup("Pieces", "Free");
+		*/
 		Godot.Collections.Array<Node> groupPieces = GetTree().GetNodesInGroup("Pieces");
 		foreach (Node p in groupPieces)
 		{
@@ -91,7 +96,7 @@ public partial class Game : TextureRect
 	void StartGame()
 	{
 		InitGrid();
-		Shuffle(gameMode * 30);
+		Shuffle(gameMode * 42);
 		PopulateGrid();
 	}
 
@@ -146,6 +151,18 @@ public partial class Game : TextureRect
 	/// <param name="times"></param>
 	void Shuffle(int times = 1)
 	{
+		/*
+		Última posição de 'null'
+		Para não ficar voltando a peça a esta posição imediatamente
+		na hora do Shuffle()
+		A última posição do 'null' ao iniciar o 'gridData' é:
+		'gameMode - 1' -> inicializado em Reset()
+		*/
+		int n = gameMode - 1;
+		// null sempre vai ser uma destas posições ao iniciar
+		// (2,2), (3,3), (4,4), (5,5)
+		Vector2I lastNullPosition = new(n, n);
+
 		for (int i = 0; i < times; i++)
 		{
 			Vector2I nullPosition = FindNullPosition();
@@ -153,7 +170,7 @@ public partial class Game : TextureRect
 
 			// Remover a última posição do 'null' para a peça não
 			// voltar imediatamente para esta posição
-			validPositions.Remove(nullPosition);
+			validPositions.Remove(lastNullPosition);
 			// Atualizar a posição mais recente do 'null' em 'gridData'
 			lastNullPosition = nullPosition;
 
@@ -190,47 +207,7 @@ public partial class Game : TextureRect
 		return nullPos;
 	}
 
-	/// <summary>
-	/// Encontra as posições adjacentes válidas à posição 'null'
-	/// em gridData
-	/// </summary>
-	/// <param name="nullPos">A posição com o valor 'null'</param>
-	/// <returns>
-	/// Retorna um Array de Vector2 representando estas posições
-	/// </returns>
-	List<Vector2I> GetGridAdjacentPositions(Vector2I nullPos)
-	{
-		List<Vector2I> adjacents = new();
-
-		/*
-		São 4 posíveis posições para mover
-		LEFT, na verdade, representa a posição acima para este propósito
-		RIGHT == down
-		UP == left
-		DOWN == right
-		*/
-		Vector2I up = nullPos + Vector2I.Left;
-		Vector2I down = nullPos + Vector2I.Right;
-		Vector2I left = nullPos + Vector2I.Up;
-		Vector2I right = nullPos + Vector2I.Down;
-
-		List<Vector2I> positions = new() {up, down, left, right};
-
-		foreach (Vector2I pos in positions)
-		{
-			/*
-			Após as somas, as posições válidas não podem ser
-			menores que zero ou maiores que o 'game_mode' - 1
-			*/
-			if (pos.X < 0 || pos.Y < 0 || pos.X == gameMode || pos.Y == gameMode)
-				continue;
-
-			// Adiciona a posição válida neste loop
-			adjacents.Add(pos);
-		}
-
-		return adjacents;
-	}
+// GetGridAdjacent
 
 	/// <summary>
 	/// Troca as posições de uma Piece com a posição 'null'
@@ -296,27 +273,25 @@ public partial class Game : TextureRect
 	/// <param name="inputPos"></param>
 	void GridTouch(Vector2 inputPos)
 	{
+		//TODO desabilitar o click em Grid.cs ou aqui enquanto
+		// a peça se move
 		Vector2I gridPos = PixelToGrid(inputPos);
 
 		// Se a posição tiver o valor 'null' não continua a execução,
 		// tem que ter uma peça
 		if (! CanMakeMove(gridPos)) return;
 
-		// Passou pelo if acima, pode mover a peça [Piece]
-		Vector2I nullPos = FindNullPosition();
+		// Passou pelo if acima, pode mover a(s) peça(s) [Piece]
+		MovePieces(gridPos);
+		/*
+		Funciona bem só colorir após mover todas as peças,
+		a percepção é que mudou ao mover cada uma individualmente.
 
-		// Mover a peça no grid (Control)
-		// Esta linha tem que ser antes do Swipe,
-		// senão o Swipe vai acessar um valor errado
-		Piece piece = gridData[gridPos.X, gridPos.Y];
-		// Mover a peça no 'gridData'
-		Swipe(gridPos, nullPos);
-		piece.Move(GridToPixel(nullPos.X, nullPos.Y));
+		Assim como chechar se o movimento finaliza o jogo.
+		*/
 
-		// Mudar de cor ao mover a peça (se estiver na posição certa)
+		// Mudar de cor ao mover a(s) peça(s) (se estiver na posição certa)
 		ChangePiecesColor();
-
-		moves++;
 
 		if (DidMoveWin())
 		{
@@ -327,7 +302,6 @@ public partial class Game : TextureRect
 			UpdateHUD();
 			GameOver();
 		}
-
 	}
 
 	/// <summary>
@@ -360,8 +334,18 @@ public partial class Game : TextureRect
 	/// </summary>
 	/// <param name="gridPos"></param>
 	/// <returns></returns>
-	bool CanMakeMove(Vector2I gridPos)
+	[Obsolete]
+	bool CanMakeMove()
 	{
+		/*
+		//TODO apagar este método
+		A chamada CanMakeMove não mudou, só modifiquei o
+		corpo do método no outro arquivo Game.Mechanics.cs
+		e este serve como documentação.
+		*/
+		// Faz de conta que foi onde clicou
+		Vector2I gridPos = new(3, 3);  //HACK
+
 		/*
 		Se a posição estiver vazia, não pode realizar o movimento
 		pois não clicou numa peça válida

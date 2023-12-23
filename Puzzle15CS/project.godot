@@ -25,6 +25,8 @@ TweenManager="*res://Scripts/TweenManager.gd"
 window/size/viewport_width=720
 window/size/viewport_height=1600
 window/size/resizable=false
+window/size/window_width_override=360
+window/size/window_height_override=800
 window/stretch/mode="canvas_items"
 window/handheld/orientation=1
 
